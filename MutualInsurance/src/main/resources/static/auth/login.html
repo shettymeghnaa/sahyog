@@ -1,0 +1,79 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Login | Sahyog</title>-->
+<!--    <script src="https://cdn.tailwindcss.com"></script>-->
+<!--</head>-->
+
+<!--<body class="bg-[#F5F5F5] min-h-screen flex items-center justify-center">-->
+
+<!--<div class="bg-white w-[420px] p-10 border border-gray-200">-->
+
+<!--    <div class="text-center mb-8">-->
+<!--        <h1 class="text-2xl font-semibold">Sahyog</h1>-->
+<!--        <p class="text-gray-500 text-sm mt-2">Member Login</p>-->
+<!--    </div>-->
+
+<!--    <div class="space-y-5">-->
+
+<!--        <input id="username"-->
+<!--               type="text"-->
+<!--               placeholder="Username"-->
+<!--               class="w-full border border-gray-300 px-4 py-3 focus:outline-none focus:border-[#8C0032]">-->
+
+<!--        <input id="password"-->
+<!--               type="password"-->
+<!--               placeholder="Password"-->
+<!--               class="w-full border border-gray-300 px-4 py-3 focus:outline-none focus:border-[#8C0032]">-->
+
+<!--        <button onclick="login()"-->
+<!--                class="w-full bg-[#8C0032] text-white py-3 hover:bg-[#5C001F] transition">-->
+<!--            Login-->
+<!--        </button>-->
+
+<!--    </div>-->
+
+<!--    <div class="mt-6 text-center">-->
+<!--        <a href="register.html" class="text-sm text-[#8C0032] hover:underline">-->
+<!--            Create an Account-->
+<!--        </a>-->
+<!--    </div>-->
+
+<!--</div>-->
+
+<!--<script>-->
+<!--    function login() {-->
+
+<!--        const username = document.getElementById("username").value;-->
+<!--        const password = document.getElementById("password").value;-->
+
+<!--        fetch("http://localhost:8080/api/auth/login", {-->
+<!--            method: "POST",-->
+<!--            headers: {-->
+<!--                "Content-Type": "application/json"-->
+<!--            },-->
+<!--            body: JSON.stringify({ username, password })-->
+<!--        })-->
+<!--            .then(res => res.text())-->
+<!--            .then(token => {-->
+
+<!--                localStorage.setItem("token", token);-->
+
+<!--                const payload = JSON.parse(atob(token.split('.')[1]));-->
+<!--                const role = payload.role;-->
+
+<!--                if (role === "ROLE_ADMIN") {-->
+<!--                    window.location.href = "../admin/dashboard.html";-->
+<!--                } else {-->
+<!--                    window.location.href = "../member/dashboard.html";-->
+<!--                }-->
+<!--            })-->
+<!--            .catch(err => {-->
+<!--                alert("Login failed");-->
+<!--            });-->
+<!--    }-->
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->

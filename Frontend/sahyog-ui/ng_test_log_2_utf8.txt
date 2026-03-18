@@ -1,0 +1,574 @@
+﻿[33mΓ¥»[39m Building...
+[32mΓ£ö[39m Building...
+[1mInitial chunk files[22m                                                                          [2m | [22m[1mNames[22m                                                                                     [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m                                                                                   [2m | [22m[2mstyles[22m                                                                                    [2m | [22m[36m130.95 kB[39m[2m | [22m
+[32mspec-app-features-member-components-dashboard-dashboard.js[39m                                   [2m | [22m[2mspec-app-features-member-components-dashboard-dashboard[22m                                   [2m | [22m [36m70.17 kB[39m[2m | [22m
+[32mspec-app-features-landing-components-landing-component-landing-component.js[39m                  [2m | [22m[2mspec-app-features-landing-components-landing-component-landing-component[22m                  [2m | [22m [36m54.44 kB[39m[2m | [22m
+[32mspec-app-features-government-components-government-dashboard-government-dashboard.js[39m         [2m | [22m[2mspec-app-features-government-components-government-dashboard-government-dashboard[22m         [2m | [22m [36m49.83 kB[39m[2m | [22m
+[32mspec-app-features-auth-components-register-component-register-component.js[39m                   [2m | [22m[2mspec-app-features-auth-components-register-component-register-component[22m                   [2m | [22m [36m42.62 kB[39m[2m | [22m
+[32mspec-app-features-claim-officer-components-claim-officer-dashboard-claim-officer-dashboard.js[39m[2m | [22m[2mspec-app-features-claim-officer-components-claim-officer-dashboard-claim-officer-dashboard[22m[2m | [22m [36m35.81 kB[39m[2m | [22m
+[32mspec-app-features-admin-pages-overview-admin-overview.js[39m                                     [2m | [22m[2mspec-app-features-admin-pages-overview-admin-overview[22m                                     [2m | [22m [36m33.27 kB[39m[2m | [22m
+[32mspec-app-features-claim-officer-components-claim-review-claim-review.js[39m                      [2m | [22m[2mspec-app-features-claim-officer-components-claim-review-claim-review[22m                      [2m | [22m [36m32.50 kB[39m[2m | [22m
+[32mspec-app-features-member-components-claims-submit-claim-submit-claim.js[39m                      [2m | [22m[2mspec-app-features-member-components-claims-submit-claim-submit-claim[22m                      [2m | [22m [36m31.70 kB[39m[2m | [22m
+[32mspec-app-features-member-components-contributions-pay-contribution-pay-contribution.js[39m       [2m | [22m[2mspec-app-features-member-components-contributions-pay-contribution-pay-contribution[22m       [2m | [22m [36m30.78 kB[39m[2m | [22m
+[32mspec-app-features-admin-pages-regions-admin-regions.js[39m                                       [2m | [22m[2mspec-app-features-admin-pages-regions-admin-regions[22m                                       [2m | [22m [36m30.02 kB[39m[2m | [22m
+[32mspec-app-features-admin-pages-policies-admin-policies.js[39m                                     [2m | [22m[2mspec-app-features-admin-pages-policies-admin-policies[22m                                     [2m | [22m [36m24.76 kB[39m[2m | [22m
+[32mspec-app-features-auth-components-login-component-login-component.js[39m                         [2m | [22m[2mspec-app-features-auth-components-login-component-login-component[22m                         [2m | [22m [36m19.24 kB[39m[2m | [22m
+[32mchunk-HJCPWF2R.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m [36m12.36 kB[39m[2m | [22m
+[32mchunk-WXBJIOR5.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m5.00 kB[39m[2m | [22m
+[32mchunk-7F3KDCT5.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m4.18 kB[39m[2m | [22m
+[32mspec-app-features-auth-services-auth-service.js[39m                                              [2m | [22m[2mspec-app-features-auth-services-auth-service[22m                                              [2m | [22m  [36m3.28 kB[39m[2m | [22m
+[32mspec-app-features-auth-auth.guard.js[39m                                                         [2m | [22m[2mspec-app-features-auth-auth.guard[22m                                                         [2m | [22m  [36m3.25 kB[39m[2m | [22m
+[32mchunk-SFZ4YJRQ.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m2.90 kB[39m[2m | [22m
+[32mspec-app-layout-main-layout-main-layout.js[39m                                                   [2m | [22m[2mspec-app-layout-main-layout-main-layout[22m                                                   [2m | [22m  [36m2.04 kB[39m[2m | [22m
+[32mspec-app-app.js[39m                                                                              [2m | [22m[2mspec-app-app[22m                                                                              [2m | [22m  [36m1.98 kB[39m[2m | [22m
+[32mspec-app-features-auth-jwt-interceptor.js[39m                                                    [2m | [22m[2mspec-app-features-auth-jwt-interceptor[22m                                                    [2m | [22m  [36m1.87 kB[39m[2m | [22m
+[32mspec-app-features-member-services-contribution-service.js[39m                                    [2m | [22m[2mspec-app-features-member-services-contribution-service[22m                                    [2m | [22m  [36m1.86 kB[39m[2m | [22m
+[32mspec-app-features-admin-services-admin-service.js[39m                                            [2m | [22m[2mspec-app-features-admin-services-admin-service[22m                                            [2m | [22m  [36m1.83 kB[39m[2m | [22m
+[32mchunk-REZIRWLV.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.79 kB[39m[2m | [22m
+[32mspec-app-features-member-services-claim-service.js[39m                                           [2m | [22m[2mspec-app-features-member-services-claim-service[22m                                           [2m | [22m  [36m1.76 kB[39m[2m | [22m
+[32mchunk-SSNKMMAG.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.76 kB[39m[2m | [22m
+[32mspec-app-features-claim-officer-services-claim-officer-service.js[39m                            [2m | [22m[2mspec-app-features-claim-officer-services-claim-officer-service[22m                            [2m | [22m  [36m1.70 kB[39m[2m | [22m
+[32mspec-app-features-government-services-government-service.js[39m                                  [2m | [22m[2mspec-app-features-government-services-government-service[22m                                  [2m | [22m  [36m1.59 kB[39m[2m | [22m
+[32mchunk-MSN6YEMT.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.38 kB[39m[2m | [22m
+[32mspec-app-features-member-services-member-service.js[39m                                          [2m | [22m[2mspec-app-features-member-services-member-service[22m                                          [2m | [22m  [36m1.36 kB[39m[2m | [22m
+[32minit-testbed.js[39m                                                                              [2m | [22m[2minit-testbed[22m                                                                              [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mchunk-AHTKKJJR.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.18 kB[39m[2m | [22m
+[32mchunk-GLDGL32J.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.14 kB[39m[2m | [22m
+[32mchunk-V5UB63E4.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.08 kB[39m[2m | [22m
+[32mspec-app-guards-auth-guard.js[39m                                                                [2m | [22m[2mspec-app-guards-auth-guard[22m                                                                [2m | [22m[36m858 bytes[39m[2m | [22m
+[32mspec-app-interceptors-auth-interceptor.js[39m                                                    [2m | [22m[2mspec-app-interceptors-auth-interceptor[22m                                                    [2m | [22m[36m839 bytes[39m[2m | [22m
+[32mvitest-mock-patch.js[39m                                                                         [2m | [22m[2mvitest-mock-patch[22m                                                                         [2m | [22m[36m704 bytes[39m[2m | [22m
+[32mspec-app-features-shared-components-navbar-navbar.js[39m                                         [2m | [22m[2mspec-app-features-shared-components-navbar-navbar[22m                                         [2m | [22m[36m681 bytes[39m[2m | [22m
+[32mspec-app-features-shared-components-footer-footer.js[39m                                         [2m | [22m[2mspec-app-features-shared-components-footer-footer[22m                                         [2m | [22m[36m651 bytes[39m[2m | [22m
+
+[1m [22m                                                                                            [2m | [22m[1mInitial total[22m                                                                             [2m | [22m[1m646.33 kB[22m
+
+Application bundle generation complete. [3.957 seconds] - 2026-03-18T12:21:40.299Z
+
+node.exe : [1m[33m[33mΓû▓ [
+43;33m[[43;30mWARNING[43;33m]
+[0m [1mNG8113: Footer is not 
+used within the template of 
+App[0m [1m[35m[plugin 
+angular-compiler][0m
+At C:\Users\nehak\AppData\Roami
+ng\npm\ng.ps1:24 char:5
++     & "node$exe"  "$basedir/n
+ode_modules/@angular/cli/bin/ng
+.js" $arg ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo          : 
+N    otSpecified: 
+([1m[33m[33    
+mΓ...r-compiler][0m:String    
+) [], RemoteException
+    + FullyQualifiedErrorId : 
+N    ativeCommandError
+ 
+
+    src/app/app.ts:8:26:
+[37m      8 Γöé   imports: 
+[RouterOutlet, 
+[32mFooter[37m, Navbar],
+        Γò╡                    
+       [32m~~~~~~[0m
+
+
+[33mΓû▓ [43;33m[[43;30mWARNI
+NG[43;33m][0m [1mNG8113: 
+Navbar is not used within the 
+template of App[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.ts:8:34:
+[37m      8 Γöé   imports: 
+[RouterOutlet, Footer, 
+[32mNavbar[37m],
+        Γò╡                    
+               [32m~~~~~~[0m
+
+[39m[22m
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/nehak/OneDrive/Desktop/Sahyog/Frontend/sahyog-ui[39m
+
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/admin/services/admin-service.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 65[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/services/claim-service.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 84[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/services/contribution-service.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 147[2mms[22m[39m
+     [32mΓ£ô[39m should be created[32m 111[2mms[22m[39m
+     [32mΓ£ô[39m should get personal contributions[32m 14[2mms[22m[39m
+[31m     [31m├ù[31m should pay a contribution[39m[32m 19[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/jwt-interceptor.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/claim-officer/services/claim-officer-service.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/auth.guard.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 98[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/services/auth-service.spec.ts [2m([22m[2m5 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 90[2mms[22m[39m
+     [32mΓ£ô[39m should be created[32m 37[2mms[22m[39m
+     [32mΓ£ô[39m should login and navigate to dashboard on success[32m 24[2mms[22m[39m
+[31m     [31m├ù[31m should handle login error and call onError callback[39m[32m 16[2mms[22m[39m
+     [32mΓ£ô[39m should logout and navigate to login page[32m 5[2mms[22m[39m
+     [32mΓ£ô[39m should return correct role checks[32m 5[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/services/member-service.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/government/services/government-service.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/admin/pages/overview/admin-overview.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 220[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/shared/components/footer/footer.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 63[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/admin/pages/policies/admin-policies.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 266[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/components/claims/submit-claim/submit-claim.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 316[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m sahyog-ui [49m[39m src/app/features/shared/components/navbar/navbar.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 20[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 20[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m sahyog-ui [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 104[2mms[22m[39m
+     [32mΓ£ô[39m should create the app[32m 62[2mms[22m[39m
+[31m     [31m├ù[31m should render title[39m[32m 41[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/components/contributions/pay-contribution/pay-contribution.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 202[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/components/dashboard/dashboard.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 309[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/interceptors/auth-interceptor.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m sahyog-ui [49m[39m src/app/layout/main-layout/main-layout.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 72[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 72[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/government/components/government-dashboard/government-dashboard.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 279[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/claim-officer/components/claim-officer-dashboard/claim-officer-dashboard.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 249[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/guards/auth-guard.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/claim-officer/components/claim-review/claim-review.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 245[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/components/register-component/register-component.spec.ts [2m([22m[2m5 tests[22m[2m | [22m[31m5 failed[39m[2m)[22m[33m 344[2mms[22m[39m
+[31m     [31m├ù[31m should create and load regions[39m[32m 235[2mms[22m[39m
+[31m     [31m├ù[31m should show error if any field is missing[39m[32m 35[2mms[22m[39m
+[31m     [31m├ù[31m should validate email format[39m[32m 25[2mms[22m[39m
+[31m     [31m├ù[31m should validate password match[39m[32m 23[2mms[22m[39m
+[31m     [31m├ù[31m should call API on valid registration[39m[32m 24[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/components/login-component/login-component.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[33m 336[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/admin/pages/regions/admin-regions.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 121[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m sahyog-ui [49m[39m src/app/features/landing/components/landing-component/landing-component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 305[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[33m 305[2mms[22m[39m
+
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m[1
+m[41m Failed Tests 11 [49m[2
+2m[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[3
+9m
+
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m 
+src/app/app.spec.ts[2m > 
+[22mApp[2m > [22mshould 
+render title
+[31m[1mAssertionError[22m: 
+the given combination of 
+arguments (undefined and 
+string) is invalid for this 
+assertion. You can use an 
+array, a map, an object, a 
+set, a string, or a weakset 
+instead of a string[39m
+[36m [2mΓ¥»[22m src/app/app.
+spec.ts:[2m21:55[22m[39m
+    [90m 19| [39m    
+[35mawait[39m fixture[33m.[
+39m[34mwhenStable[39m()[33m;
+[39m
+    [90m 20| [39m    
+[35mconst[39m compiled 
+[33m=[39m fixture[33m.[39mn
+ativeElement [35mas[39m [33m
+HTMLElement[39m[33m;[39m
+    [90m 21| [39m    expect(c
+ompiled.querySelector('h1')?.te
+xtContent).toContain('HelloΓÇª
+    [90m   | [39m            
+                               
+           [31m^[39m
+    [90m 22| [39m  
+})[33m;[39m
+    [90m 23| 
+[39m})[33m;[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1/11]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/layout/main-
+layout/main-layout.spec.ts[2m 
+> [22mMainLayout[2m > 
+[22mshould create
+[31m[1m╔╡NotFound[22m: 
+NG0201: No provider found for 
+`ActivatedRoute`. Source: 
+Standalone[_MainLayout]. Find 
+more at https://v21.angular.dev
+/errors/NG0201[39m
+[90m [2mΓ¥»[22m 
+createRuntimeError node_modules
+/@angular/core/fesm2022/_effect
+-chunk2.mjs:[2m602:17[22m[39
+m
+[90m [2mΓ¥»[22m 
+NullInjector.get node_modules/@
+angular/core/fesm2022/_effect-c
+hunk2.mjs:[2m883:21[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+ChainedInjector.get node_module
+s/@angular/core/fesm2022/_debug
+_node-chunk.mjs:[2m7770:32[22
+m[39m
+[90m [2mΓ¥»[22m 
+lookupTokenUsingModuleInjector 
+node_modules/@angular/core/fesm
+2022/_debug_node-chunk.mjs:[2m
+890:31[22m[39m
+[90m [2mΓ¥»[22m 
+getOrCreateInjectable node_modu
+les/@angular/core/fesm2022/_deb
+ug_node-chunk.mjs:[2m913:10[2
+2m[39m
+[90m [2mΓ¥»[22m 
+╔╡╔╡directiveInject node_module
+s/@angular/core/fesm2022/_debug
+_node-chunk.mjs:[2m7804:17[22
+m[39m
+[90m [2mΓ¥»[22m NodeInjector
+Factory.RouterLink_Factory [as 
+factory] ng:/RouterLink/╔╡fac.j
+s:[2m6:7[22m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[2/11]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/services/auth-service.spec.ts
+[2m > [22mAuthService[2m > 
+[22mshould handle login error 
+and call onError callback
+[31m[1mAssertionError[22m: 
+expected true to be false // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- false[39m
+[31m+ true[39m
+
+[36m [2mΓ¥»[22m src/app/feat
+ures/auth/services/auth-service
+.spec.ts:[2m69:34[22m[39m
+    [90m 67| [39m
+    [90m 68| [39m    expect(e
+rrorCallback).toHaveBeenCalledW
+ith('Invalid email or passwΓÇª
+    [90m 69| [39m    [34mexp
+ect[39m(service[33m.[39m[34
+misLoggedIn[39m())[33m.[39m
+[34mtoBe[39m([35mfalse[39m)
+[33m;[39m
+    [90m   | [39m            
+                     
+[31m^[39m
+    [90m 70| [39m  
+})[33m;[39m
+    [90m 71| [39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[3/11]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/mem
+ber/services/contribution-servi
+ce.spec.ts[2m > 
+[22mContributionService[2m > 
+[22mshould pay a contribution
+[31m[1mAssertionError[22m: 
+expected null to be 
+'2025-01-01' // Object.is 
+equality[39m
+
+[32m- Expected:[39m 
+"2025-01-01"
+
+[31m+ Received:[39m 
+null
+
+[36m [2mΓ¥»[22m src/app/feat
+ures/member/services/contributi
+on-service.spec.ts:[2m50:45[2
+2m[39m
+    [90m 48| [39m    const 
+req = httpTestingController.exp
+ectOne(req => 
+req.url.includeΓÇª
+    [90m 49| [39m    [34mexp
+ect[39m(req[33m.[39mrequest
+[33m.[39mmethod)[33m.[39m[3
+4mtoBe[39m([32m'POST'[39m)[
+33m;[39m
+    [90m 50| [39m    [34mexp
+ect[39m(req[33m.[39mrequest
+[33m.[39mparams[33m.[39m[35
+mget[39m([32m'month'[39m))[
+33m.[39m[34mtoBe[39m(month)
+[33m;[39m
+    [90m   | [39m            
+                               
+ [31m^[39m
+    [90m 51| [39m    req[33m
+.[39m[34mflush[39m(mockRespo
+nse)[33m;[39m
+    [90m 52| [39m  
+})[33m;[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[4/11]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould create and load 
+regions
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould show error if 
+any field is missing
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould validate email 
+format
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould validate 
+password match
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould call API on 
+valid registration
+[31m[1m╔╡NotFound[22m: 
+NG0201: No provider found for 
+`ActivatedRoute`. Source: Stand
+alone[_RegisterComponent]. 
+Find more at https://v21.angula
+r.dev/errors/NG0201[39m
+[90m [2mΓ¥»[22m 
+createRuntimeError node_modules
+/@angular/core/fesm2022/_effect
+-chunk2.mjs:[2m602:17[22m[39
+m
+[90m [2mΓ¥»[22m 
+NullInjector.get node_modules/@
+angular/core/fesm2022/_effect-c
+hunk2.mjs:[2m883:21[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+ChainedInjector.get node_module
+s/@angular/core/fesm2022/_debug
+_node-chunk.mjs:[2m7770:32[22
+m[39m
+[90m [2mΓ¥»[22m 
+lookupTokenUsingModuleInjector 
+node_modules/@angular/core/fesm
+2022/_debug_node-chunk.mjs:[2m
+890:31[22m[39m
+[90m [2mΓ¥»[22m 
+getOrCreateInjectable node_modu
+les/@angular/core/fesm2022/_deb
+ug_node-chunk.mjs:[2m913:10[2
+2m[39m
+[90m [2mΓ¥»[22m 
+╔╡╔╡directiveInject node_module
+s/@angular/core/fesm2022/_debug
+_node-chunk.mjs:[2m7804:17[22
+m[39m
+[90m [2mΓ¥»[22m NodeInjector
+Factory.RouterLink_Factory [as 
+factory] ng:/RouterLink/╔╡fac.j
+s:[2m6:7[22m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[5/11]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/lan
+ding/components/landing-compone
+nt/landing-component.spec.ts[2
+m > [22mLandingComponent[2m 
+> [22mshould create
+[31m[1m╔╡NotFound[22m: 
+NG0201: No provider found for 
+`ActivatedRoute`. Source: 
+Standalone[_LandingComponent]. 
+Find more at https://v21.angula
+r.dev/errors/NG0201[39m
+[90m [2mΓ¥»[22m 
+createRuntimeError node_modules
+/@angular/core/fesm2022/_effect
+-chunk2.mjs:[2m602:17[22m[39
+m
+[90m [2mΓ¥»[22m 
+NullInjector.get node_modules/@
+angular/core/fesm2022/_effect-c
+hunk2.mjs:[2m883:21[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+ChainedInjector.get node_module
+s/@angular/core/fesm2022/_debug
+_node-chunk.mjs:[2m7770:32[22
+m[39m
+[90m [2mΓ¥»[22m 
+lookupTokenUsingModuleInjector 
+node_modules/@angular/core/fesm
+2022/_debug_node-chunk.mjs:[2m
+890:31[22m[39m
+[90m [2mΓ¥»[22m 
+getOrCreateInjectable node_modu
+les/@angular/core/fesm2022/_deb
+ug_node-chunk.mjs:[2m913:10[2
+2m[39m
+[90m [2mΓ¥»[22m 
+╔╡╔╡directiveInject node_module
+s/@angular/core/fesm2022/_debug
+_node-chunk.mjs:[2m7804:17[22
+m[39m
+[90m [2mΓ¥»[22m NodeInjector
+Factory.RouterLink_Factory [as 
+factory] ng:/RouterLink/╔╡fac.j
+s:[2m6:7[22m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[6/11]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/sha
+red/components/navbar/navbar.sp
+ec.ts[2m > [22mNavbar[2m > 
+[22mshould create
+[31m[1m╔╡NotFound[22m: 
+NG0201: No provider found for 
+`ActivatedRoute`. Source: 
+Standalone[_Navbar]. Find more 
+at https://v21.angular.dev/erro
+rs/NG0201[39m
+[90m [2mΓ¥»[22m 
+createRuntimeError node_modules
+/@angular/core/fesm2022/_effect
+-chunk2.mjs:[2m602:17[22m[39
+m
+[90m [2mΓ¥»[22m 
+NullInjector.get node_modules/@
+angular/core/fesm2022/_effect-c
+hunk2.mjs:[2m883:21[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+ChainedInjector.get node_module
+s/@angular/core/fesm2022/_debug
+_node-chunk.mjs:[2m7770:32[22
+m[39m
+[90m [2mΓ¥»[22m 
+lookupTokenUsingModuleInjector 
+node_modules/@angular/core/fesm
+2022/_debug_node-chunk.mjs:[2m
+890:31[22m[39m
+[90m [2mΓ¥»[22m 
+getOrCreateInjectable node_modu
+les/@angular/core/fesm2022/_deb
+ug_node-chunk.mjs:[2m913:10[2
+2m[39m
+[90m [2mΓ¥»[22m 
+╔╡╔╡directiveInject node_module
+s/@angular/core/fesm2022/_debug
+_node-chunk.mjs:[2m7804:17[22
+m[39m
+[90m [2mΓ¥»[22m NodeInjector
+Factory.RouterLink_Factory [as 
+factory] ng:/RouterLink/╔╡fac.j
+s:[2m6:7[22m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[7/11]ΓÄ»[22m
+[39m
+
+
+[2m Test Files [22m [1m[31m7 failed[39m[22m[2m | [22m[1m[32m20 passed[39m[22m[90m (27)[39m
+[2m      Tests [22m [1m[31m11 failed[39m[22m[2m | [22m[1m[32m58 passed[39m[22m[90m (69)[39m
+[2m   Start at [22m 17:51:40
+[2m   Duration [22m 5.47s[2m (transform 4.12s, setup 14.70s, import 8.43s, tests 3.99s, environment 77.33s)[22m
+

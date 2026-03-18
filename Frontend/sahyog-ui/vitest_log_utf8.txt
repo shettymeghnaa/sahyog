@@ -1,0 +1,1581 @@
+﻿
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/nehak/OneDrive/Desktop/Sahyog/Frontend/sahyog-ui[39m
+
+ [31mΓ¥»[39m src/app/features/claim-officer/services/claim-officer-service.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 14[2mms[22m[39m
+[31m     [31m├ù[31m should be created[39m[32m 8[2mms[22m[39m
+[31m     [31m├ù[31m should fetch pending claims[39m[32m 2[2mms[22m[39m
+[31m     [31m├ù[31m should approve a claim[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/member/services/contribution-service.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 9[2mms[22m[39m
+[31m     [31m├ù[31m should be created[39m[32m 6[2mms[22m[39m
+[31m     [31m├ù[31m should get personal contributions[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should pay a contribution[39m[32m 0[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/admin/services/admin-service.spec.ts [2m([22m[2m4 tests[22m[2m | [22m[31m4 failed[39m[2m)[22m[32m 10[2mms[22m[39m
+[31m     [31m├ù[31m should be created[39m[32m 6[2mms[22m[39m
+[31m     [31m├ù[31m should fetch regions[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should suspend a member[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should fetch global pool summary[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/auth/services/auth-service.spec.ts [2m([22m[2m5 tests[22m[2m | [22m[31m5 failed[39m[2m)[22m[32m 17[2mms[22m[39m
+[31m     [31m├ù[31m should be created[39m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should login and navigate to dashboard on success[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should handle login error and call onError callback[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should logout and navigate to login page[39m[32m 4[2mms[22m[39m
+[31m     [31m├ù[31m should return correct role checks[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/auth/auth.guard.spec.ts [2m([22m[2m5 tests[22m[2m | [22m[31m5 failed[39m[2m)[22m[32m 12[2mms[22m[39m
+[31m       [31m├ù[31m should allow if token is present[39m[32m 7[2mms[22m[39m
+[31m       [31m├ù[31m should redirect to login if token is absent[39m[32m 1[2mms[22m[39m
+[31m       [31m├ù[31m should allow if token is present and user is member[39m[32m 1[2mms[22m[39m
+[31m       [31m├ù[31m should redirect if user is not member[39m[32m 1[2mms[22m[39m
+[31m       [31m├ù[31m should allow if user is admin[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/admin/pages/overview/admin-overview.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 10[2mms[22m[39m
+[31m     [31m├ù[31m should create and load all stats on init[39m[32m 8[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/government/components/government-dashboard/government-dashboard.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 12[2mms[22m[39m
+[31m     [31m├ù[31m should load data on init[39m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should declare a disaster[39m[32m 2[2mms[22m[39m
+[31m     [31m├ù[31m should update region risk[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/member/components/claims/submit-claim/submit-claim.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 11[2mms[22m[39m
+[31m     [31m├ù[31m should create and load profile on init[39m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should validate form before submission[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should call claimService.submitClaim on valid input[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/admin/pages/policies/admin-policies.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 11[2mms[22m[39m
+[31m     [31m├ù[31m should load regions on init[39m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should show create form if policy not found[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should load existing policy[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/claim-officer/components/claim-officer-dashboard/claim-officer-dashboard.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 10[2mms[22m[39m
+[31m     [31m├ù[31m should load pending claims on init[39m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should navigate to review page[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/auth/components/register-component/register-component.spec.ts [2m([22m[2m5 tests[22m[2m | [22m[31m5 failed[39m[2m)[22m[32m 12[2mms[22m[39m
+[31m     [31m├ù[31m should create and load regions[39m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should show error if any field is missing[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should validate email format[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should validate password match[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should call API on valid registration[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/member/components/contributions/pay-contribution/pay-contribution.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 11[2mms[22m[39m
+[31m     [31m├ù[31m should create and load member info on init[39m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should initiate payment and show confirmation[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should proceed with payment on confirmAndPay[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/claim-officer/components/claim-review/claim-review.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 10[2mms[22m[39m
+[31m     [31m├ù[31m should load claim and auto-review if SUBMITTED[39m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should submit approval decision[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/member/components/dashboard/dashboard.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 12[2mms[22m[39m
+[31m     [31m├ù[31m should create and load data on init[39m[32m 8[2mms[22m[39m
+[31m     [31m├ù[31m should change view correctly[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should filter disasters based on claims[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/auth/components/login-component/login-component.spec.ts [2m([22m[2m4 tests[22m[2m | [22m[31m4 failed[39m[2m)[22m[32m 12[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should show error if fields are empty[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should show error for invalid email format[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should call authService.login for valid input[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/member/services/claim-service.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 10[2mms[22m[39m
+[31m     [31m├ù[31m should be created[39m[32m 6[2mms[22m[39m
+[31m     [31m├ù[31m should submit a claim[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should get personal claims[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/government/services/government-service.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 9[2mms[22m[39m
+[31m     [31m├ù[31m should be created[39m[32m 5[2mms[22m[39m
+[31m     [31m├ù[31m should update region risk level[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m should declare a disaster[39m[32m 0[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/member/services/member-service.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 10[2mms[22m[39m
+[31m     [31m├ù[31m should be created[39m[32m 6[2mms[22m[39m
+[31m     [31m├ù[31m should load member profile into signal[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/features/auth/jwt-interceptor.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 9[2mms[22m[39m
+[31m     [31m├ù[31m should add Authorization header when token is present[39m[32m 6[2mms[22m[39m
+[31m     [31m├ù[31m should NOT add Authorization header when token is absent[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/interceptors/auth-interceptor.spec.ts [2m([22m[2m0 test[22m[2m)[22m
+ [31mΓ¥»[39m src/app/features/shared/components/footer/footer.spec.ts [2m([22m[2m0 test[22m[2m)[22m
+ [31mΓ¥»[39m src/app/guards/auth-guard.spec.ts [2m([22m[2m0 test[22m[2m)[22m
+ [31mΓ¥»[39m src/app/features/landing/components/landing-component/landing-component.spec.ts [2m([22m[2m0 test[22m[2m)[22m
+ [31mΓ¥»[39m src/app/layout/main-layout/main-layout.spec.ts [2m([22m[2m0 test[22m[2m)[22m
+ [31mΓ¥»[39m src/app/features/admin/pages/regions/admin-regions.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should load regions on init[39m[32m 4[2mms[22m[39m
+[31m     [31m├ù[31m should validate form and call createRegion[39m[32m 1[2mms[22m[39m
+ [31mΓ¥»[39m src/app/app.spec.ts [2m([22m[2m0 test[22m[2m)[22m
+ [31mΓ¥»[39m src/app/features/shared/components/navbar/navbar.spec.ts [2m([22m[2m0 test[22m[2m)[22m
+npx : 
+At line:1 char:1
++ npx vitest --run > 
+vitest_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo          :  
+   NotSpecified: (:String) []  
+  , RemoteException
+    + FullyQualifiedErrorId :  
+   NativeCommandError
+ 
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m[1
+m[41m Failed Suites 7 [49m[2
+2m[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[3
+9m
+
+[41m[1m FAIL [22m[49m 
+src/app/app.spec.ts[2m [ 
+src/app/app.spec.ts ][22m
+[31m[1mReferenceError[22m: 
+describe is not defined[39m
+[36m [2mΓ¥»[22m src/app/app.
+spec.ts:[2m4:1[22m[39m
+    [90m  2| 
+[39m[35mimport[39m { 
+[33mApp[39m } [35mfrom[39m 
+[32m'./app'[39m[33m;[39m
+    [90m  3| [39m
+    [90m  4| [39m[34mdescrib
+e[39m([32m'App'[39m[33m,[3
+9m () [33m=>[39m {
+    [90m   | [39m[31m^[39m
+    [90m  5| [39m  [34mbefor
+eEach[39m([35masync[39m () 
+[33m=>[39m {
+    [90m  6| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1/68]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m src/a
+pp/guards/auth-guard.spec.ts[2
+m [ src/app/guards/auth-guard.s
+pec.ts ][22m
+[31m[1mReferenceError[22m: 
+describe is not defined[39m
+[36m [2mΓ¥»[22m src/app/guar
+ds/auth-guard.spec.ts:[2m6:1[
+22m[39m
+    [90m  4| 
+[39m[35mimport[39m { 
+authGuard } [35mfrom[39m [32
+m'./auth-guard'[39m[33m;[39m
+    [90m  5| [39m
+    [90m  6| [39m[34mdescrib
+e[39m([32m'authGuard'[39m[3
+3m,[39m () [33m=>[39m {
+    [90m   | [39m[31m^[39m
+    [90m  7| [39m  
+[35mconst[39m 
+executeGuard[33m:[39m 
+[33mCanActivateFn[39m 
+[33m=[39m 
+([33m...[39mguardParameters) 
+[33m=>[39m 
+    [90m  8| [39m      TestBe
+d.runInInjectionContext(() => 
+authGuard(...guardParametersΓÇª
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[2/68]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m src/a
+pp/interceptors/auth-intercepto
+r.spec.ts[2m [ src/app/interce
+ptors/auth-interceptor.spec.ts 
+][22m
+[31m[1mReferenceError[22m: 
+describe is not defined[39m
+[36m [2mΓ¥»[22m src/app/inte
+rceptors/auth-interceptor.spec.
+ts:[2m6:1[22m[39m
+    [90m  4| 
+[39m[35mimport[39m { 
+authInterceptor } 
+[35mfrom[39m [32m'./auth-int
+erceptor'[39m[33m;[39m
+    [90m  5| [39m
+    [90m  6| [39m[34mdescrib
+e[39m([32m'authInterceptor'[
+39m[33m,[39m () [33m=>[39m 
+{
+    [90m   | [39m[31m^[39m
+    [90m  7| [39m  
+[35mconst[39m 
+interceptor[33m:[39m 
+[33mHttpInterceptorFn[39m 
+[33m=[39m (req[33m,[39m 
+next) [33m=>[39m 
+    [90m  8| [39m    [33mTes
+tBed[39m[33m.[39m[34mrunInI
+njectionContext[39m(() 
+[33m=>[39m [34mauthIntercept
+or[39m(req[33m,[39m 
+next))[33m;[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[3/68]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m src/a
+pp/layout/main-layout/main-layo
+ut.spec.ts[2m [ src/app/layout
+/main-layout/main-layout.spec.t
+s ][22m
+[31m[1mReferenceError[22m: 
+describe is not defined[39m
+[36m [2mΓ¥»[22m src/app/layo
+ut/main-layout/main-layout.spec
+.ts:[2m5:1[22m[39m
+    [90m  3| 
+[39m[35mimport[39m { 
+[33mMainLayout[39m } 
+[35mfrom[39m [32m'./main-lay
+out'[39m[33m;[39m
+    [90m  4| [39m
+    [90m  5| [39m[34mdescrib
+e[39m([32m'MainLayout'[39m[
+33m,[39m () [33m=>[39m {
+    [90m   | [39m[31m^[39m
+    [90m  6| [39m  
+[35mlet[39m 
+component[33m:[39m 
+[33mMainLayout[39m[33m;[39m
+    [90m  7| [39m  
+[35mlet[39m 
+fixture[33m:[39m [33mCompone
+ntFixture[39m[33m<[39m[33mM
+ainLayout[39m[33m>[39m[33m;
+[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[4/68]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/landing/components/
+landing-component/landing-compo
+nent.spec.ts[2m [ src/app/feat
+ures/landing/components/landing
+-component/landing-component.sp
+ec.ts ][22m
+[31m[1mReferenceError[22m: 
+describe is not defined[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/landing/components/landing
+-component/landing-component.sp
+ec.ts:[2m5:1[22m[39m
+    [90m  3| 
+[39m[35mimport[39m { 
+[33mLandingComponent[39m } 
+[35mfrom[39m [32m'./landing-
+component'[39m[33m;[39m
+    [90m  4| [39m
+    [90m  5| [39m[34mdescrib
+e[39m([32m'LandingComponent'
+[39m[33m,[39m () 
+[33m=>[39m {
+    [90m   | [39m[31m^[39m
+    [90m  6| [39m  
+[35mlet[39m 
+component[33m:[39m [33mLandi
+ngComponent[39m[33m;[39m
+    [90m  7| [39m  
+[35mlet[39m 
+fixture[33m:[39m [33mCompone
+ntFixture[39m[33m<[39m[33mL
+andingComponent[39m[33m>[39m
+[33m;[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[5/68]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/shared/components/f
+ooter/footer.spec.ts[2m [ src/
+app/features/shared/components/
+footer/footer.spec.ts ][22m
+[31m[1mReferenceError[22m: 
+describe is not defined[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/shared/components/footer/f
+ooter.spec.ts:[2m5:1[22m[39m
+    [90m  3| 
+[39m[35mimport[39m { 
+[33mFooter[39m } 
+[35mfrom[39m 
+[32m'./footer'[39m[33m;[39m
+    [90m  4| [39m
+    [90m  5| [39m[34mdescrib
+e[39m([32m'Footer'[39m[33m,
+[39m () [33m=>[39m {
+    [90m   | [39m[31m^[39m
+    [90m  6| [39m  
+[35mlet[39m 
+component[33m:[39m 
+[33mFooter[39m[33m;[39m
+    [90m  7| [39m  
+[35mlet[39m 
+fixture[33m:[39m [33mCompone
+ntFixture[39m[33m<[39m[33mF
+ooter[39m[33m>[39m[33m;[39
+m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[6/68]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/shared/components/n
+avbar/navbar.spec.ts[2m [ src/
+app/features/shared/components/
+navbar/navbar.spec.ts ][22m
+[31m[1mReferenceError[22m: 
+describe is not defined[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/shared/components/navbar/n
+avbar.spec.ts:[2m5:1[22m[39m
+    [90m  3| 
+[39m[35mimport[39m { 
+[33mNavbar[39m } 
+[35mfrom[39m 
+[32m'./navbar'[39m[33m;[39m
+    [90m  4| [39m
+    [90m  5| [39m[34mdescrib
+e[39m([32m'Navbar'[39m[33m,
+[39m () [33m=>[39m {
+    [90m   | [39m[31m^[39m
+    [90m  6| [39m  
+[35mlet[39m 
+component[33m:[39m 
+[33mNavbar[39m[33m;[39m
+    [90m  7| [39m  
+[35mlet[39m 
+fixture[33m:[39m [33mCompone
+ntFixture[39m[33m<[39m[33mN
+avbar[39m[33m>[39m[33m;[39
+m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[7/68]ΓÄ»[22m
+[39m
+
+
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m[1
+m[41m Failed Tests 61 [49m[2
+2m[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/auth.guard.spe
+c.ts[2m > [22mAuth 
+Guards[2m > 
+[22mauthGuard[2m > 
+[22mshould allow if token is 
+present
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/auth.guard.spe
+c.ts[2m > [22mAuth 
+Guards[2m > 
+[22mauthGuard[2m > 
+[22mshould redirect to login 
+if token is absent
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/auth.guard.spe
+c.ts[2m > [22mAuth 
+Guards[2m > 
+[22mmemberGuard[2m > 
+[22mshould allow if token is 
+present and user is member
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/auth.guard.spe
+c.ts[2m > [22mAuth 
+Guards[2m > 
+[22mmemberGuard[2m > 
+[22mshould redirect if user 
+is not member
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/auth.guard.spe
+c.ts[2m > [22mAuth 
+Guards[2m > 
+[22madminGuard[2m > 
+[22mshould allow if user is 
+admin
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/auth/auth.guard.spec.ts:[
+2m23:13[22m[39m
+    [90m 21| [39m    
+}[33m;[39m
+    [90m 22| [39m
+    [90m 23| [39m    [33mTes
+tBed[39m[33m.[39m[34mconfig
+ureTestingModule[39m({
+    [90m   | [39m            
+[31m^[39m
+    [90m 24| [39m      
+providers[33m:[39m [
+    [90m 25| [39m        { 
+provide[33m:[39m [33mAuthSer
+vice[39m[33m,[39m 
+useValue[33m:[39m 
+authService }[33m,[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[8/68]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/jwt-intercepto
+r.spec.ts[2m > 
+[22mjwtInterceptor[2m > 
+[22mshould add Authorization 
+header when token is present
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/jwt-intercepto
+r.spec.ts[2m > 
+[22mjwtInterceptor[2m > 
+[22mshould NOT add 
+Authorization header when 
+token is absent
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/auth/jwt-interceptor.spec.
+ts:[2m12:13[22m[39m
+    [90m 10| [39m
+    [90m 11| [39m  
+[34mbeforeEach[39m(() 
+[33m=>[39m {
+    [90m 12| [39m    [33mTes
+tBed[39m[33m.[39m[34mconfig
+ureTestingModule[39m({
+    [90m   | [39m            
+[31m^[39m
+    [90m 13| [39m      
+providers[33m:[39m [
+    [90m 14| [39m        [34
+mprovideNgHttpClient[39m([34m
+withNgInterceptors[39m([jwtInt
+erceptor]))[33m,[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[9/68]ΓÄ»[22m
+[39m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/services/admi
+n-service.spec.ts[2m > 
+[22mAdminService[2m > 
+[22mshould be created
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/services/admi
+n-service.spec.ts[2m > 
+[22mAdminService[2m > 
+[22mshould fetch regions
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/services/admi
+n-service.spec.ts[2m > 
+[22mAdminService[2m > 
+[22mshould suspend a member
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/services/admi
+n-service.spec.ts[2m > 
+[22mAdminService[2m > 
+[22mshould fetch global pool 
+summary
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/admin/services/admin-servi
+ce.spec.ts:[2m12:13[22m[39m
+    [90m 10| [39m
+    [90m 11| [39m  
+[34mbeforeEach[39m(() 
+[33m=>[39m {
+    [90m 12| [39m    [33mTes
+tBed[39m[33m.[39m[34mconfig
+ureTestingModule[39m({
+    [90m   | [39m            
+[31m^[39m
+    [90m 13| [39m      
+providers[33m:[39m [
+    [90m 14| [39m        [33
+mAdminService[39m[33m,[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[10/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/services/auth-
+service.spec.ts[2m > 
+[22mAuthService[2m > 
+[22mshould be created
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/services/auth-
+service.spec.ts[2m > 
+[22mAuthService[2m > 
+[22mshould login and navigate 
+to dashboard on success
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/services/auth-
+service.spec.ts[2m > 
+[22mAuthService[2m > 
+[22mshould handle login error 
+and call onError callback
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/services/auth-
+service.spec.ts[2m > 
+[22mAuthService[2m > 
+[22mshould logout and 
+navigate to login page
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/services/auth-
+service.spec.ts[2m > 
+[22mAuthService[2m > 
+[22mshould return correct 
+role checks
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/auth/services/auth-service
+.spec.ts:[2m18:13[22m[39m
+    [90m 16| [39m    
+}[33m;[39m
+    [90m 17| [39m
+    [90m 18| [39m    [33mTes
+tBed[39m[33m.[39m[34mconfig
+ureTestingModule[39m({
+    [90m   | [39m            
+[31m^[39m
+    [90m 19| [39m      
+providers[33m:[39m [
+    [90m 20| [39m        [33
+mAuthService[39m[33m,[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[11/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/claim-officer/servi
+ces/claim-officer-service.spec.
+ts[2m > 
+[22mClaimOfficerService[2m > 
+[22mshould be created
+[41m[1m FAIL [22m[49m src/a
+pp/features/claim-officer/servi
+ces/claim-officer-service.spec.
+ts[2m > 
+[22mClaimOfficerService[2m > 
+[22mshould fetch pending 
+claims
+[41m[1m FAIL [22m[49m src/a
+pp/features/claim-officer/servi
+ces/claim-officer-service.spec.
+ts[2m > 
+[22mClaimOfficerService[2m > 
+[22mshould approve a claim
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/claim-officer/services/cla
+im-officer-service.spec.ts:[2m
+12:13[22m[39m
+    [90m 10| [39m
+    [90m 11| [39m  
+[34mbeforeEach[39m(() 
+[33m=>[39m {
+    [90m 12| [39m    [33mTes
+tBed[39m[33m.[39m[34mconfig
+ureTestingModule[39m({
+    [90m   | [39m            
+[31m^[39m
+    [90m 13| [39m      
+providers[33m:[39m [
+    [90m 14| [39m        [33
+mClaimOfficerService[39m[33m,
+[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[12/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/government/services
+/government-service.spec.ts[2m
+ > [22mGovernmentService[2m 
+> [22mshould be created
+[41m[1m FAIL [22m[49m src/a
+pp/features/government/services
+/government-service.spec.ts[2m
+ > [22mGovernmentService[2m 
+> [22mshould update region 
+risk level
+[41m[1m FAIL [22m[49m src/a
+pp/features/government/services
+/government-service.spec.ts[2m
+ > [22mGovernmentService[2m 
+> [22mshould declare a 
+disaster
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/government/services/govern
+ment-service.spec.ts:[2m12:13
+[22m[39m
+    [90m 10| [39m
+    [90m 11| [39m  
+[34mbeforeEach[39m(() 
+[33m=>[39m {
+    [90m 12| [39m    [33mTes
+tBed[39m[33m.[39m[34mconfig
+ureTestingModule[39m({
+    [90m   | [39m            
+[31m^[39m
+    [90m 13| [39m      
+providers[33m:[39m [
+    [90m 14| [39m        [33
+mGovernmentService[39m[33m,[
+39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[13/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/services/cla
+im-service.spec.ts[2m > 
+[22mClaimService[2m > 
+[22mshould be created
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/services/cla
+im-service.spec.ts[2m > 
+[22mClaimService[2m > 
+[22mshould submit a claim
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/services/cla
+im-service.spec.ts[2m > 
+[22mClaimService[2m > 
+[22mshould get personal claims
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/member/services/claim-serv
+ice.spec.ts:[2m12:13[22m[39m
+    [90m 10| [39m
+    [90m 11| [39m  
+[34mbeforeEach[39m(() 
+[33m=>[39m {
+    [90m 12| [39m    [33mTes
+tBed[39m[33m.[39m[34mconfig
+ureTestingModule[39m({
+    [90m   | [39m            
+[31m^[39m
+    [90m 13| [39m      
+providers[33m:[39m [
+    [90m 14| [39m        [33
+mClaimService[39m[33m,[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[14/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/services/con
+tribution-service.spec.ts[2m 
+> [22mContributionService[2m 
+> [22mshould be created
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/services/con
+tribution-service.spec.ts[2m 
+> [22mContributionService[2m 
+> [22mshould get personal 
+contributions
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/services/con
+tribution-service.spec.ts[2m 
+> [22mContributionService[2m 
+> [22mshould pay a 
+contribution
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/member/services/contributi
+on-service.spec.ts:[2m12:13[2
+2m[39m
+    [90m 10| [39m
+    [90m 11| [39m  
+[34mbeforeEach[39m(() 
+[33m=>[39m {
+    [90m 12| [39m    [33mTes
+tBed[39m[33m.[39m[34mconfig
+ureTestingModule[39m({
+    [90m   | [39m            
+[31m^[39m
+    [90m 13| [39m      
+providers[33m:[39m [
+    [90m 14| [39m        [33
+mContributionService[39m[33m,
+[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[15/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/services/mem
+ber-service.spec.ts[2m > 
+[22mMemberService[2m > 
+[22mshould be created
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/services/mem
+ber-service.spec.ts[2m > 
+[22mMemberService[2m > 
+[22mshould load member 
+profile into signal
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/member/services/member-ser
+vice.spec.ts:[2m13:13[22m[39
+m
+    [90m 11| [39m
+    [90m 12| [39m  
+[34mbeforeEach[39m(() 
+[33m=>[39m {
+    [90m 13| [39m    [33mTes
+tBed[39m[33m.[39m[34mconfig
+ureTestingModule[39m({
+    [90m   | [39m            
+[31m^[39m
+    [90m 14| [39m      
+providers[33m:[39m [
+    [90m 15| [39m        [33
+mMemberService[39m[33m,[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[16/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/components/log
+in-component/login-component.sp
+ec.ts[2m > 
+[22mLoginComponent[2m > 
+[22mshould create
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/components/log
+in-component/login-component.sp
+ec.ts[2m > 
+[22mLoginComponent[2m > 
+[22mshould show error if 
+fields are empty
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/components/log
+in-component/login-component.sp
+ec.ts[2m > 
+[22mLoginComponent[2m > 
+[22mshould show error for 
+invalid email format
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/components/log
+in-component/login-component.sp
+ec.ts[2m > 
+[22mLoginComponent[2m > 
+[22mshould call 
+authService.login for valid 
+input
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/auth/components/login-comp
+onent/login-component.spec.ts:
+[2m18:19[22m[39m
+    [90m 16| [39m    
+}[33m;[39m
+    [90m 17| [39m
+    [90m 18| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 19| [39m      
+imports[33m:[39m [[33mLoginC
+omponent[39m[33m,[39m [33mF
+ormsModule[39m][33m,[39m
+    [90m 20| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[17/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/components/reg
+ister-component/register-compon
+ent.spec.ts[2m > 
+[22mRegisterComponent[2m > 
+[22mshould create and load 
+regions
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/components/reg
+ister-component/register-compon
+ent.spec.ts[2m > 
+[22mRegisterComponent[2m > 
+[22mshould show error if any 
+field is missing
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/components/reg
+ister-component/register-compon
+ent.spec.ts[2m > 
+[22mRegisterComponent[2m > 
+[22mshould validate email 
+format
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/components/reg
+ister-component/register-compon
+ent.spec.ts[2m > 
+[22mRegisterComponent[2m > 
+[22mshould validate password 
+match
+[41m[1m FAIL [22m[49m src/a
+pp/features/auth/components/reg
+ister-component/register-compon
+ent.spec.ts[2m > 
+[22mRegisterComponent[2m > 
+[22mshould call API on valid 
+registration
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/auth/components/register-c
+omponent/register-component.spe
+c.ts:[2m22:19[22m[39m
+    [90m 20| [39m    
+}[33m;[39m
+    [90m 21| [39m
+    [90m 22| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 23| [39m      
+imports[33m:[39m [[33mRegist
+erComponent[39m[33m,[39m [3
+3mFormsModule[39m][33m,[39m
+    [90m 24| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[18/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/claim-officer/compo
+nents/claim-review/claim-review
+.spec.ts[2m > 
+[22mClaimReviewComponent[2m 
+> [22mshould load claim and 
+auto-review if SUBMITTED
+[41m[1m FAIL [22m[49m src/a
+pp/features/claim-officer/compo
+nents/claim-review/claim-review
+.spec.ts[2m > 
+[22mClaimReviewComponent[2m 
+> [22mshould submit approval 
+decision
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/claim-officer/components/c
+laim-review/claim-review.spec.t
+s:[2m37:19[22m[39m
+    [90m 35| [39m    
+}[33m;[39m
+    [90m 36| [39m
+    [90m 37| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 38| [39m      
+imports[33m:[39m [[33mClaimR
+eviewComponent[39m[33m,[39m 
+[33mFormsModule[39m][33m,[3
+9m
+    [90m 39| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[19/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/claim-officer/compo
+nents/claim-officer-dashboard/c
+laim-officer-dashboard.spec.ts
+[2m > 
+[22mClaimOfficerDashboard[2m 
+> [22mshould load pending 
+claims on init
+[41m[1m FAIL [22m[49m src/a
+pp/features/claim-officer/compo
+nents/claim-officer-dashboard/c
+laim-officer-dashboard.spec.ts
+[2m > 
+[22mClaimOfficerDashboard[2m 
+> [22mshould navigate to 
+review page
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/claim-officer/components/c
+laim-officer-dashboard/claim-of
+ficer-dashboard.spec.ts:[2m24:
+19[22m[39m
+    [90m 22| [39m    
+}[33m;[39m
+    [90m 23| [39m
+    [90m 24| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 25| [39m      
+imports[33m:[39m [[33mClaimO
+fficerDashboard[39m][33m,[39
+m
+    [90m 26| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[20/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/government/componen
+ts/government-dashboard/governm
+ent-dashboard.spec.ts[2m > 
+[22mGovernmentDashboard[2m > 
+[22mshould load data on init
+[41m[1m FAIL [22m[49m src/a
+pp/features/government/componen
+ts/government-dashboard/governm
+ent-dashboard.spec.ts[2m > 
+[22mGovernmentDashboard[2m > 
+[22mshould declare a disaster
+[41m[1m FAIL [22m[49m src/a
+pp/features/government/componen
+ts/government-dashboard/governm
+ent-dashboard.spec.ts[2m > 
+[22mGovernmentDashboard[2m > 
+[22mshould update region risk
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/government/components/gove
+rnment-dashboard/government-das
+hboard.spec.ts:[2m27:19[22m[
+39m
+    [90m 25| [39m    
+}[33m;[39m
+    [90m 26| [39m
+    [90m 27| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 28| [39m      
+imports[33m:[39m [[33mGovern
+mentDashboard[39m[33m,[39m 
+[33mFormsModule[39m][33m,[39
+m
+    [90m 29| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[21/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/pages/overvie
+w/admin-overview.spec.ts[2m > 
+[22mAdminOverview[2m > 
+[22mshould create and load 
+all stats on init
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/admin/pages/overview/admin
+-overview.spec.ts:[2m22:19[22
+m[39m
+    [90m 20| [39m    
+}[33m;[39m
+    [90m 21| [39m
+    [90m 22| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 23| [39m      
+imports[33m:[39m [[33mAdminO
+verview[39m][33m,[39m
+    [90m 24| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[22/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/pages/regions
+/admin-regions.spec.ts[2m > 
+[22mAdminRegions[2m > 
+[22mshould load regions on 
+init
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/pages/regions
+/admin-regions.spec.ts[2m > 
+[22mAdminRegions[2m > 
+[22mshould validate form and 
+call createRegion
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/admin/pages/regions/admin-
+regions.spec.ts:[2m19:19[22m
+[39m
+    [90m 17| [39m    
+}[33m;[39m
+    [90m 18| [39m
+    [90m 19| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 20| [39m      
+imports[33m:[39m [[33mAdminR
+egions[39m[33m,[39m [33mFor
+msModule[39m][33m,[39m
+    [90m 21| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[23/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/pages/policie
+s/admin-policies.spec.ts[2m > 
+[22mAdminPolicies[2m > 
+[22mshould load regions on 
+init
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/pages/policie
+s/admin-policies.spec.ts[2m > 
+[22mAdminPolicies[2m > 
+[22mshould show create form 
+if policy not found
+[41m[1m FAIL [22m[49m src/a
+pp/features/admin/pages/policie
+s/admin-policies.spec.ts[2m > 
+[22mAdminPolicies[2m > 
+[22mshould load existing 
+policy
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/admin/pages/policies/admin
+-policies.spec.ts:[2m21:19[22
+m[39m
+    [90m 19| [39m    
+}[33m;[39m
+    [90m 20| [39m
+    [90m 21| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 22| [39m      
+imports[33m:[39m [[33mAdminP
+olicies[39m[33m,[39m [33mFo
+rmsModule[39m][33m,[39m
+    [90m 23| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[24/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/components/d
+ashboard/dashboard.spec.ts[2m 
+> [22mDashboard[2m > 
+[22mshould create and load 
+data on init
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/components/d
+ashboard/dashboard.spec.ts[2m 
+> [22mDashboard[2m > 
+[22mshould change view 
+correctly
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/components/d
+ashboard/dashboard.spec.ts[2m 
+> [22mDashboard[2m > 
+[22mshould filter disasters 
+based on claims
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/member/components/dashboar
+d/dashboard.spec.ts:[2m28:19[
+22m[39m
+    [90m 26| [39m    
+}[33m;[39m
+    [90m 27| [39m
+    [90m 28| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 29| [39m      
+imports[33m:[39m [[33mDashbo
+ard[39m][33m,[39m
+    [90m 30| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[25/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/components/c
+laims/submit-claim/submit-claim
+.spec.ts[2m > 
+[22mSubmitClaim[2m > 
+[22mshould create and load 
+profile on init
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/components/c
+laims/submit-claim/submit-claim
+.spec.ts[2m > 
+[22mSubmitClaim[2m > 
+[22mshould validate form 
+before submission
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/components/c
+laims/submit-claim/submit-claim
+.spec.ts[2m > 
+[22mSubmitClaim[2m > 
+[22mshould call 
+claimService.submitClaim on 
+valid input
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/member/components/claims/s
+ubmit-claim/submit-claim.spec.t
+s:[2m22:19[22m[39m
+    [90m 20| [39m    
+}[33m;[39m
+    [90m 21| [39m
+    [90m 22| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 23| [39m      
+imports[33m:[39m [[33mSubmit
+Claim[39m[33m,[39m [33mForm
+sModule[39m][33m,[39m
+    [90m 24| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[26/68]ΓÄ»[22m[3
+9m
+
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/components/c
+ontributions/pay-contribution/p
+ay-contribution.spec.ts[2m > 
+[22mPayContribution[2m > 
+[22mshould create and load 
+member info on init
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/components/c
+ontributions/pay-contribution/p
+ay-contribution.spec.ts[2m > 
+[22mPayContribution[2m > 
+[22mshould initiate payment 
+and show confirmation
+[41m[1m FAIL [22m[49m src/a
+pp/features/member/components/c
+ontributions/pay-contribution/p
+ay-contribution.spec.ts[2m > 
+[22mPayContribution[2m > 
+[22mshould proceed with 
+payment on confirmAndPay
+[31m[1mError[22m: Need to 
+call 
+TestBed.initTestEnvironment() 
+first[39m
+[90m [2mΓ¥»[22m 
+TestBedImpl.get compiler [as 
+compiler] node_modules/@angular
+/core/fesm2022/testing.mjs:[2m
+1486:13[22m[39m
+[90m [2mΓ¥»[22m TestBedImpl.
+configureTestingModule node_mod
+ules/@angular/core/fesm2022/tes
+ting.mjs:[2m1402:10[22m[39m
+[90m [2mΓ¥»[22m Function.con
+figureTestingModule node_module
+s/@angular/core/fesm2022/testin
+g.mjs:[2m1273:33[22m[39m
+[36m [2mΓ¥»[22m src/app/feat
+ures/member/components/contribu
+tions/pay-contribution/pay-cont
+ribution.spec.ts:[2m23:19[22m
+[39m
+    [90m 21| [39m    
+}[33m;[39m
+    [90m 22| [39m
+    [90m 23| [39m    
+[35mawait[39m [33mTestBed[3
+9m[33m.[39m[34mconfigureTest
+ingModule[39m({
+    [90m   | [39m            
+      [31m^[39m
+    [90m 24| [39m      
+imports[33m:[39m [[33mPayCon
+tribution[39m[33m,[39m [33m
+FormsModule[39m][33m,[39m
+    [90m 25| [39m      
+providers[33m:[39m [
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[27/68]ΓÄ»[22m[3
+9m
+
+
+[2m Test Files [22m [1m[31m27 failed[39m[22m[90m (27)[39m
+[2m      Tests [22m [1m[31m61 failed[39m[22m[90m (61)[39m
+[2m   Start at [22m 16:54:20
+[2m   Duration [22m 2.88s[2m (transform 3.27s, setup 0ms, import 21.40s, tests 217ms, environment 10ms)[22m
+

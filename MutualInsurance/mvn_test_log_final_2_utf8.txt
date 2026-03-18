@@ -1,0 +1,938 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.hartford:MutualInsurance >--------------------
+[INFO] Building MutualInsurance 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ MutualInsurance ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 19 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ MutualInsurance ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ MutualInsurance ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ MutualInsurance ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ MutualInsurance ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.hartford.mutualinsurance.controller.AuthControllerTest
+22:37:32.582 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.hartford.mutualinsurance.controller.AuthControllerTest]: AuthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:37:32.830 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.controller.AuthControllerTest
+22:37:32.967 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:33.456+05:30  INFO 42512 --- [           main] o.h.m.controller.AuthControllerTest      : Starting AuthControllerTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:33.458+05:30  INFO 42512 --- [           main] o.h.m.controller.AuthControllerTest      : The following 1 profile is active: "test"
+.\mvnw : Mockito is currently 
+self-attaching to enable the 
+inline-mock-maker. This will 
+no longer work in future 
+releases of the JDK. Please 
+add Mockito as an agent to 
+your build what is described 
+in Mockito's documentation: htt
+ps://javadoc.io/doc/org.mockito
+/mockito-core/latest/org/mockit
+o/Mockito.html#0.3
+At line:1 char:1
++ .\mvnw test > 
+mvn_test_log_final_2.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+    + CategoryInfo          :  
+   NotSpecified: (Mockito is   
+  curr...ockito.html#0.3:Str   
+ ing) [], RemoteException
+    + FullyQualifiedErrorId :  
+   NativeCommandError
+ 
+WARNING: A Java agent has been 
+loaded dynamically (C:\Users\ne
+hak\.m2\repository\net\bytebudd
+y\byte-buddy-agent\1.15.11\byte
+-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability 
+tool is in use, please run 
+with 
+-XX:+EnableDynamicAgentLoading 
+to hide this warning
+WARNING: If a serviceability 
+tool is not in use, please run 
+with 
+-Djdk.instrument.traceUsage 
+for more information
+WARNING: Dynamic loading of 
+agents will be disallowed by 
+default in a future release
+OpenJDK 64-Bit Server VM 
+warning: Sharing is only 
+supported for boot loader 
+classes because bootstrap 
+classpath has been appended
+2026-03-18T22:37:37.346+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:38.705+05:30  WARN 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, org.hartford.mutualinsurance.security.CustomUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-03-18T22:37:39.215+05:30  WARN 42512 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: efa5a28f-c380-42ee-adf9-99863fcb221d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-18T22:37:39.335+05:30  INFO 42512 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-18T22:37:39.335+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-18T22:37:39.337+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-03-18T22:37:39.402+05:30  INFO 42512 --- [           main] o.h.m.controller.AuthControllerTest      : Started AuthControllerTest in 6.452 seconds (process running for 7.965)
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.735 s -- in org.hartford.mutualinsurance.controller.AuthControllerTest
+[INFO] Running org.hartford.mutualinsurance.controller.ClaimControllerTest
+2026-03-18T22:37:40.110+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.controller.ClaimControllerTest]: ClaimControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:40.130+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.controller.ClaimControllerTest
+2026-03-18T22:37:40.136+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:40.236+05:30  INFO 42512 --- [           main] o.h.m.controller.ClaimControllerTest     : Starting ClaimControllerTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:40.237+05:30  INFO 42512 --- [           main] o.h.m.controller.ClaimControllerTest     : The following 1 profile is active: "test"
+2026-03-18T22:37:40.604+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:40.734+05:30  WARN 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, org.hartford.mutualinsurance.security.CustomUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-03-18T22:37:40.748+05:30  WARN 42512 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f5246df1-0ae7-4b04-a805-bc50b027b97e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-18T22:37:40.790+05:30  INFO 42512 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-18T22:37:40.791+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-18T22:37:40.792+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-03-18T22:37:40.804+05:30  INFO 42512 --- [           main] o.h.m.controller.ClaimControllerTest     : Started ClaimControllerTest in 0.668 seconds (process running for 9.366)
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.923 s -- in org.hartford.mutualinsurance.controller.ClaimControllerTest
+[INFO] Running org.hartford.mutualinsurance.controller.ClaimOfficerControllerTest
+2026-03-18T22:37:41.042+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.controller.ClaimOfficerControllerTest]: ClaimOfficerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:41.054+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.controller.ClaimOfficerControllerTest
+2026-03-18T22:37:41.059+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:41.107+05:30  INFO 42512 --- [           main] o.h.m.c.ClaimOfficerControllerTest       : Starting ClaimOfficerControllerTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:41.108+05:30  INFO 42512 --- [           main] o.h.m.c.ClaimOfficerControllerTest       : The following 1 profile is active: "test"
+2026-03-18T22:37:41.824+05:30  INFO 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name org.hartford.mutualinsurance.security.CustomUserDetailsService#0
+2026-03-18T22:37:41.864+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:42.201+05:30  INFO 42512 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-18T22:37:42.201+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-18T22:37:42.202+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-03-18T22:37:42.214+05:30  INFO 42512 --- [           main] o.h.m.c.ClaimOfficerControllerTest       : Started ClaimOfficerControllerTest in 1.157 seconds (process running for 10.776)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/claim-officers
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {SPRING_SECURITY_CONTEXT=SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=user, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_MEMBER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_MEMBER]]]}
+
+Handler:
+             Type = org.hartford.mutualinsurance.controller.ClaimOfficerController
+           Method = org.hartford.mutualinsurance.controller.ClaimOfficerController#getAllClaimOfficers()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.security.authorization.AuthorizationDeniedException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 500
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0"]
+     Content type = application/json
+             Body = {"status":500,"error":"Internal Server Error","message":"An unexpected error occurred: Access Denied","timestamp":"2026-03-18T22:37:42.5365715"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.557 s <<< FAILURE! -- in org.hartford.mutualinsurance.controller.ClaimOfficerControllerTest
+[ERROR] org.hartford.mutualinsurance.controller.ClaimOfficerControllerTest.getAllClaimOfficers_asMember_shouldReturnForbidden -- Time elapsed: 0.026 s <<< FAILURE!
+java.lang.AssertionError: Status expected:<403> but was:<500>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at org.hartford.mutualinsurance.controller.ClaimOfficerControllerTest.getAllClaimOfficers_asMember_shouldReturnForbidden(ClaimOfficerControllerTest.java:113)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[INFO] Running org.hartford.mutualinsurance.controller.ContributionControllerTest
+2026-03-18T22:37:42.611+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.controller.ContributionControllerTest]: ContributionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:42.628+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.controller.ContributionControllerTest
+2026-03-18T22:37:42.633+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:42.662+05:30  INFO 42512 --- [           main] o.h.m.c.ContributionControllerTest       : Starting ContributionControllerTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:42.662+05:30  INFO 42512 --- [           main] o.h.m.c.ContributionControllerTest       : The following 1 profile is active: "test"
+2026-03-18T22:37:42.941+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:43.019+05:30  WARN 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, org.hartford.mutualinsurance.security.CustomUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-03-18T22:37:43.035+05:30  WARN 42512 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a4b6e284-c372-4aaf-bb57-04295d8b7bb6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-18T22:37:43.039+05:30  INFO 42512 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-18T22:37:43.039+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-18T22:37:43.040+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-03-18T22:37:43.045+05:30  INFO 42512 --- [           main] o.h.m.c.ContributionControllerTest       : Started ContributionControllerTest in 0.413 seconds (process running for 11.607)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.521 s -- in org.hartford.mutualinsurance.controller.ContributionControllerTest
+[INFO] Running org.hartford.mutualinsurance.controller.DisasterControllerTest
+2026-03-18T22:37:43.146+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.controller.DisasterControllerTest]: DisasterControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:43.186+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.controller.DisasterControllerTest
+2026-03-18T22:37:43.193+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:43.221+05:30  INFO 42512 --- [           main] o.h.m.controller.DisasterControllerTest  : Starting DisasterControllerTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:43.221+05:30  INFO 42512 --- [           main] o.h.m.controller.DisasterControllerTest  : The following 1 profile is active: "test"
+2026-03-18T22:37:43.517+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:43.574+05:30  WARN 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, org.hartford.mutualinsurance.security.CustomUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-03-18T22:37:43.594+05:30  WARN 42512 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c701a930-7ce4-459b-a318-de999750d9c0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-18T22:37:43.603+05:30  INFO 42512 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-18T22:37:43.603+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-18T22:37:43.604+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-03-18T22:37:43.611+05:30  INFO 42512 --- [           main] o.h.m.controller.DisasterControllerTest  : Started DisasterControllerTest in 0.421 seconds (process running for 12.174)
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.537 s -- in org.hartford.mutualinsurance.controller.DisasterControllerTest
+[INFO] Running org.hartford.mutualinsurance.controller.MemberControllerTest
+2026-03-18T22:37:43.692+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.controller.MemberControllerTest]: MemberControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:43.715+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.controller.MemberControllerTest
+2026-03-18T22:37:43.720+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:43.746+05:30  INFO 42512 --- [           main] o.h.m.controller.MemberControllerTest    : Starting MemberControllerTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:43.746+05:30  INFO 42512 --- [           main] o.h.m.controller.MemberControllerTest    : The following 1 profile is active: "test"
+2026-03-18T22:37:43.974+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:44.046+05:30  WARN 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, org.hartford.mutualinsurance.security.CustomUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-03-18T22:37:44.062+05:30  WARN 42512 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f53310a2-4a99-48e1-a830-c9a75d05ef7a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-18T22:37:44.069+05:30  INFO 42512 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-18T22:37:44.069+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-18T22:37:44.069+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-03-18T22:37:44.075+05:30  INFO 42512 --- [           main] o.h.m.controller.MemberControllerTest    : Started MemberControllerTest in 0.357 seconds (process running for 12.638)
+java.lang.NullPointerException:
+ Cannot invoke "org.springframe
+work.security.core.Authenticati
+on.getName()" because 
+"authentication" is null
+	at org.hartford.mutualinsuranc
+e.controller.MemberController.g
+etMyProfile(MemberController.ja
+va:41)
+	at java.base/jdk.internal.refl
+ect.DirectMethodHandleAccessor.
+invoke(DirectMethodHandleAccess
+or.java:103)
+	at java.base/java.lang.reflect
+.Method.invoke(Method.java:580)
+	at org.springframework.web.met
+hod.support.InvocableHandlerMet
+hod.doInvoke(InvocableHandlerMe
+thod.java:257)
+	at org.springframework.web.met
+hod.support.InvocableHandlerMet
+hod.invokeForRequest(InvocableH
+andlerMethod.java:190)
+	at org.springframework.web.ser
+vlet.mvc.method.annotation.Serv
+letInvocableHandlerMethod.invok
+eAndHandle(ServletInvocableHand
+lerMethod.java:118)
+	at org.springframework.web.ser
+vlet.mvc.method.annotation.Requ
+estMappingHandlerAdapter.invoke
+HandlerMethod(RequestMappingHan
+dlerAdapter.java:986)
+	at org.springframework.web.ser
+vlet.mvc.method.annotation.Requ
+estMappingHandlerAdapter.handle
+Internal(RequestMappingHandlerA
+dapter.java:891)
+	at org.springframework.web.ser
+vlet.mvc.method.AbstractHandler
+MethodAdapter.handle(AbstractHa
+ndlerMethodAdapter.java:87)
+	at org.springframework.web.ser
+vlet.DispatcherServlet.doDispat
+ch(DispatcherServlet.java:1088)
+	at org.springframework.web.ser
+vlet.DispatcherServlet.doServic
+e(DispatcherServlet.java:978)
+	at org.springframework.web.ser
+vlet.FrameworkServlet.processRe
+quest(FrameworkServlet.java:101
+4)
+	at org.springframework.web.ser
+vlet.FrameworkServlet.doGet(Fra
+meworkServlet.java:903)
+	at jakarta.servlet.http.HttpSe
+rvlet.service(HttpServlet.java:
+564)
+	at org.springframework.web.ser
+vlet.FrameworkServlet.service(F
+rameworkServlet.java:885)
+	at org.springframework.test.we
+b.servlet.TestDispatcherServlet
+.service(TestDispatcherServlet.
+java:72)
+	at jakarta.servlet.http.HttpSe
+rvlet.service(HttpServlet.java:
+658)
+	at org.springframework.mock.we
+b.MockFilterChain$ServletFilter
+Proxy.doFilter(MockFilterChain.
+java:165)
+	at org.springframework.mock.we
+b.MockFilterChain.doFilter(Mock
+FilterChain.java:132)
+	at org.springframework.test.we
+b.servlet.MockMvc.perform(MockM
+vc.java:201)
+	at org.hartford.mutualinsuranc
+e.controller.MemberControllerTe
+st.getMyProfile_shouldReturnPro
+file(MemberControllerTest.java:
+84)
+	at java.base/jdk.internal.refl
+ect.DirectMethodHandleAccessor.
+invoke(DirectMethodHandleAccess
+or.java:103)
+	at java.base/java.lang.reflect
+.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.
+util.ReflectionUtils.invokeMeth
+od(ReflectionUtils.java:767)
+	at org.junit.jupiter.engine.ex
+ecution.MethodInvocation.procee
+d(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.ex
+ecution.InvocationInterceptorCh
+ain$ValidatingInvocation.procee
+d(InvocationInterceptorChain.ja
+va:131)
+	at org.junit.jupiter.engine.ex
+tension.TimeoutExtension.interc
+ept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.ex
+tension.TimeoutExtension.interc
+eptTestableMethod(TimeoutExtens
+ion.java:147)
+	at org.junit.jupiter.engine.ex
+tension.TimeoutExtension.interc
+eptTestMethod(TimeoutExtension.
+java:86)
+	at org.junit.jupiter.engine.ex
+ecution.InterceptingExecutableI
+nvoker$ReflectiveInterceptorCal
+l.lambda$ofVoidMethod$0(Interce
+ptingExecutableInvoker.java:103
+)
+	at org.junit.jupiter.engine.ex
+ecution.InterceptingExecutableI
+nvoker.lambda$invoke$0(Intercep
+tingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.ex
+ecution.InvocationInterceptorCh
+ain$InterceptedInvocation.proce
+ed(InvocationInterceptorChain.j
+ava:106)
+	at org.junit.jupiter.engine.ex
+ecution.InvocationInterceptorCh
+ain.proceed(InvocationIntercept
+orChain.java:64)
+	at org.junit.jupiter.engine.ex
+ecution.InvocationInterceptorCh
+ain.chainAndInvoke(InvocationIn
+terceptorChain.java:45)
+	at org.junit.jupiter.engine.ex
+ecution.InvocationInterceptorCh
+ain.invoke(InvocationIntercepto
+rChain.java:37)
+	at org.junit.jupiter.engine.ex
+ecution.InterceptingExecutableI
+nvoker.invoke(InterceptingExecu
+tableInvoker.java:92)
+	at org.junit.jupiter.engine.ex
+ecution.InterceptingExecutableI
+nvoker.invoke(InterceptingExecu
+tableInvoker.java:86)
+	at org.junit.jupiter.engine.de
+scriptor.TestMethodTestDescript
+or.lambda$invokeTestMethod$8(Te
+stMethodTestDescriptor.java:217
+)
+	at org.junit.platform.engine.s
+upport.hierarchical.ThrowableCo
+llector.execute(ThrowableCollec
+tor.java:73)
+	at org.junit.jupiter.engine.de
+scriptor.TestMethodTestDescript
+or.invokeTestMethod(TestMethodT
+estDescriptor.java:213)
+	at org.junit.jupiter.engine.de
+scriptor.TestMethodTestDescript
+or.execute(TestMethodTestDescri
+ptor.java:138)
+	at org.junit.jupiter.engine.de
+scriptor.TestMethodTestDescript
+or.execute(TestMethodTestDescri
+ptor.java:68)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.lambda$executeRecursively$6(N
+odeTestTask.java:156)
+	at org.junit.platform.engine.s
+upport.hierarchical.ThrowableCo
+llector.execute(ThrowableCollec
+tor.java:73)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.lambda$executeRecursively$8(N
+odeTestTask.java:146)
+	at org.junit.platform.engine.s
+upport.hierarchical.Node.around
+(Node.java:137)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.lambda$executeRecursively$9(N
+odeTestTask.java:144)
+	at org.junit.platform.engine.s
+upport.hierarchical.ThrowableCo
+llector.execute(ThrowableCollec
+tor.java:73)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.executeRecursively(NodeTestTa
+sk.java:143)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.execute(NodeTestTask.java:100
+)
+	at java.base/java.util.ArrayLi
+st.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.s
+upport.hierarchical.SameThreadH
+ierarchicalTestExecutorService.
+invokeAll(SameThreadHierarchica
+lTestExecutorService.java:41)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.lambda$executeRecursively$6(N
+odeTestTask.java:160)
+	at org.junit.platform.engine.s
+upport.hierarchical.ThrowableCo
+llector.execute(ThrowableCollec
+tor.java:73)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.lambda$executeRecursively$8(N
+odeTestTask.java:146)
+	at org.junit.platform.engine.s
+upport.hierarchical.Node.around
+(Node.java:137)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.lambda$executeRecursively$9(N
+odeTestTask.java:144)
+	at org.junit.platform.engine.s
+upport.hierarchical.ThrowableCo
+llector.execute(ThrowableCollec
+tor.java:73)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.executeRecursively(NodeTestTa
+sk.java:143)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.execute(NodeTestTask.java:100
+)
+	at java.base/java.util.ArrayLi
+st.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.s
+upport.hierarchical.SameThreadH
+ierarchicalTestExecutorService.
+invokeAll(SameThreadHierarchica
+lTestExecutorService.java:41)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.lambda$executeRecursively$6(N
+odeTestTask.java:160)
+	at org.junit.platform.engine.s
+upport.hierarchical.ThrowableCo
+llector.execute(ThrowableCollec
+tor.java:73)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.lambda$executeRecursively$8(N
+odeTestTask.java:146)
+	at org.junit.platform.engine.s
+upport.hierarchical.Node.around
+(Node.java:137)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.lambda$executeRecursively$9(N
+odeTestTask.java:144)
+	at org.junit.platform.engine.s
+upport.hierarchical.ThrowableCo
+llector.execute(ThrowableCollec
+tor.java:73)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.executeRecursively(NodeTestTa
+sk.java:143)
+	at org.junit.platform.engine.s
+upport.hierarchical.NodeTestTas
+k.execute(NodeTestTask.java:100
+)
+	at org.junit.platform.engine.s
+upport.hierarchical.SameThreadH
+ierarchicalTestExecutorService.
+submit(SameThreadHierarchicalTe
+stExecutorService.java:35)
+	at org.junit.platform.engine.s
+upport.hierarchical.Hierarchica
+lTestExecutor.execute(Hierarchi
+calTestExecutor.java:57)
+	at org.junit.platform.engine.s
+upport.hierarchical.Hierarchica
+lTestEngine.execute(Hierarchica
+lTestEngine.java:54)
+	at org.junit.platform.launcher
+.core.EngineExecutionOrchestrat
+or.execute(EngineExecutionOrche
+strator.java:198)
+	at org.junit.platform.launcher
+.core.EngineExecutionOrchestrat
+or.execute(EngineExecutionOrche
+strator.java:169)
+	at org.junit.platform.launcher
+.core.EngineExecutionOrchestrat
+or.execute(EngineExecutionOrche
+strator.java:93)
+	at org.junit.platform.launcher
+.core.EngineExecutionOrchestrat
+or.lambda$execute$0(EngineExecu
+tionOrchestrator.java:58)
+	at org.junit.platform.launcher
+.core.EngineExecutionOrchestrat
+or.withInterceptedStreams(Engin
+eExecutionOrchestrator.java:141
+)
+	at org.junit.platform.launcher
+.core.EngineExecutionOrchestrat
+or.execute(EngineExecutionOrche
+strator.java:57)
+	at org.junit.platform.launcher
+.core.DefaultLauncher.execute(D
+efaultLauncher.java:103)
+	at org.junit.platform.launcher
+.core.DefaultLauncher.execute(D
+efaultLauncher.java:85)
+	at org.junit.platform.launcher
+.core.DelegatingLauncher.execut
+e(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.j
+unitplatform.LazyLauncher.execu
+te(LazyLauncher.java:56)
+	at org.apache.maven.surefire.j
+unitplatform.JUnitPlatformProvi
+der.execute(JUnitPlatformProvid
+er.java:184)
+	at org.apache.maven.surefire.j
+unitplatform.JUnitPlatformProvi
+der.invokeAllTests(JUnitPlatfor
+mProvider.java:148)
+	at org.apache.maven.surefire.j
+unitplatform.JUnitPlatformProvi
+der.invoke(JUnitPlatformProvide
+r.java:122)
+	at org.apache.maven.surefire.b
+ooter.ForkedBooter.runSuitesInP
+rocess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.b
+ooter.ForkedBooter.execute(Fork
+edBooter.java:162)
+	at org.apache.maven.surefire.b
+ooter.ForkedBooter.run(ForkedBo
+oter.java:507)
+	at org.apache.maven.surefire.b
+ooter.ForkedBooter.main(ForkedB
+ooter.java:495)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /api/members/me
+       Parameters = {}
+          Headers = []
+             Body = <no character encoding set>
+    Session Attrs = {SPRING_SECURITY_CONTEXT=SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=member@example.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_MEMBER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_MEMBER]]]}
+
+Handler:
+             Type = org.hartford.mutualinsurance.controller.MemberController
+           Method = org.hartford.mutualinsurance.controller.MemberController#getMyProfile(Authentication)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = java.lang.RuntimeException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 500
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"status":500,"error":"Internal Server Error","message":"An unexpected error occurred: ERROR: Cannot invoke \"org.springframework.security.core.Authentication.getName()\" because \"authentication\" is null","timestamp":"2026-03-18T22:37:44.1686616"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[ERROR] Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.486 s <<< FAILURE! -- in org.hartford.mutualinsurance.controller.MemberControllerTest
+[ERROR] org.hartford.mutualinsurance.controller.MemberControllerTest.getMyProfile_shouldReturnProfile -- Time elapsed: 0.042 s <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<500>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at org.hartford.mutualinsurance.controller.MemberControllerTest.getMyProfile_shouldReturnProfile(MemberControllerTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[INFO] Running org.hartford.mutualinsurance.controller.PolicyControllerTest
+2026-03-18T22:37:44.193+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.controller.PolicyControllerTest]: PolicyControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:44.216+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.controller.PolicyControllerTest
+2026-03-18T22:37:44.220+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:44.248+05:30  INFO 42512 --- [           main] o.h.m.controller.PolicyControllerTest    : Starting PolicyControllerTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:44.249+05:30  INFO 42512 --- [           main] o.h.m.controller.PolicyControllerTest    : The following 1 profile is active: "test"
+2026-03-18T22:37:44.475+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:44.526+05:30  WARN 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, org.hartford.mutualinsurance.security.CustomUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-03-18T22:37:44.541+05:30  WARN 42512 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 45ab5fc3-242a-42e3-a95e-2d44b369d92e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-18T22:37:44.543+05:30  INFO 42512 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-18T22:37:44.544+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-18T22:37:44.544+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-03-18T22:37:44.549+05:30  INFO 42512 --- [           main] o.h.m.controller.PolicyControllerTest    : Started PolicyControllerTest in 0.331 seconds (process running for 13.111)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.406 s -- in org.hartford.mutualinsurance.controller.PolicyControllerTest
+[INFO] Running org.hartford.mutualinsurance.controller.PoolFundControllerTest
+2026-03-18T22:37:44.608+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.controller.PoolFundControllerTest]: PoolFundControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:44.619+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.controller.PoolFundControllerTest
+2026-03-18T22:37:44.622+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:44.652+05:30  INFO 42512 --- [           main] o.h.m.controller.PoolFundControllerTest  : Starting PoolFundControllerTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:44.652+05:30  INFO 42512 --- [           main] o.h.m.controller.PoolFundControllerTest  : The following 1 profile is active: "test"
+2026-03-18T22:37:44.891+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:44.951+05:30  WARN 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, org.hartford.mutualinsurance.security.CustomUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-03-18T22:37:44.967+05:30  WARN 42512 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 211ca840-240c-45c6-b811-ff0745b65729
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-18T22:37:44.970+05:30  INFO 42512 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-18T22:37:44.970+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-18T22:37:44.971+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-03-18T22:37:44.975+05:30  INFO 42512 --- [           main] o.h.m.controller.PoolFundControllerTest  : Started PoolFundControllerTest in 0.353 seconds (process running for 13.537)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.416 s -- in org.hartford.mutualinsurance.controller.PoolFundControllerTest
+[INFO] Running org.hartford.mutualinsurance.controller.RegionControllerTest
+2026-03-18T22:37:45.028+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.controller.RegionControllerTest]: RegionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:45.047+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.controller.RegionControllerTest
+2026-03-18T22:37:45.051+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:45.083+05:30  INFO 42512 --- [           main] o.h.m.controller.RegionControllerTest    : Starting RegionControllerTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:45.083+05:30  INFO 42512 --- [           main] o.h.m.controller.RegionControllerTest    : The following 1 profile is active: "test"
+2026-03-18T22:37:45.268+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:45.308+05:30  WARN 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, org.hartford.mutualinsurance.security.CustomUserDetailsService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-03-18T22:37:45.331+05:30  WARN 42512 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b545b714-5251-4676-b1f9-db44c37592fc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-18T22:37:45.334+05:30  INFO 42512 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-03-18T22:37:45.334+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-03-18T22:37:45.335+05:30  INFO 42512 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-03-18T22:37:45.339+05:30  INFO 42512 --- [           main] o.h.m.controller.RegionControllerTest    : Started RegionControllerTest in 0.288 seconds (process running for 13.901)
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 s -- in org.hartford.mutualinsurance.controller.RegionControllerTest
+[INFO] Running org.hartford.mutualinsurance.MutualInsuranceApplicationTests
+2026-03-18T22:37:45.386+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.MutualInsuranceApplicationTests]: MutualInsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:45.397+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.MutualInsuranceApplicationTests
+2026-03-18T22:37:45.414+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:45.462+05:30  INFO 42512 --- [           main] o.h.m.MutualInsuranceApplicationTests    : Starting MutualInsuranceApplicationTests using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:45.462+05:30  INFO 42512 --- [           main] o.h.m.MutualInsuranceApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-03-18T22:37:46.724+05:30  INFO 42512 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-18T22:37:47.002+05:30  INFO 42512 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 229 ms. Found 10 JPA repository interfaces.
+2026-03-18T22:37:48.041+05:30  INFO 42512 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-18T22:37:48.255+05:30  INFO 42512 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2026-03-18T22:37:48.339+05:30  INFO 42512 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-18T22:37:48.558+05:30  INFO 42512 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-18T22:37:48.615+05:30  INFO 42512 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-18T22:37:48.931+05:30  INFO 42512 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-03-18T22:37:48.934+05:30  INFO 42512 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-18T22:37:48.963+05:30  WARN 42512 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-18T22:37:49.021+05:30  INFO 42512 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-18T22:37:50.548+05:30  INFO 42512 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-18T22:37:50.654+05:30  INFO 42512 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18T22:37:51.407+05:30  INFO 42512 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-03-18T22:37:51.595+05:30  INFO 42512 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-18T22:37:53.673+05:30  WARN 42512 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-18T22:37:53.694+05:30  INFO 42512 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-03-18T22:37:54.382+05:30  INFO 42512 --- [           main] o.h.m.MutualInsuranceApplicationTests    : Started MutualInsuranceApplicationTests in 8.968 seconds (process running for 22.945)
+? Admin seeded ? username: admin@sahyog.com | password: Admin@123
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.731 s -- in org.hartford.mutualinsurance.MutualInsuranceApplicationTests
+[INFO] Running org.hartford.mutualinsurance.repository.ClaimRepositoryTest
+2026-03-18T22:37:55.132+05:30  INFO 42512 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.hartford.mutualinsurance.repository.ClaimRepositoryTest]: ClaimRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-18T22:37:55.169+05:30  INFO 42512 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.repository.ClaimRepositoryTest
+2026-03-18T22:37:55.175+05:30  INFO 42512 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T22:37:55.231+05:30  INFO 42512 --- [           main] o.h.m.repository.ClaimRepositoryTest     : Starting ClaimRepositoryTest using Java 21.0.10 with PID 42512 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T22:37:55.232+05:30  INFO 42512 --- [           main] o.h.m.repository.ClaimRepositoryTest     : No active profile set, falling back to 1 default profile: "default"
+2026-03-18T22:37:55.367+05:30  INFO 42512 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-18T22:37:55.402+05:30  INFO 42512 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 10 JPA repository interfaces.
+2026-03-18T22:37:55.419+05:30  INFO 42512 --- [           main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-03-18T22:37:55.470+05:30  INFO 42512 --- [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:87bcf4ed-e2a4-4062-98c8-e5de6cc4bdd4;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-18T22:37:55.505+05:30  INFO 42512 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-18T22:37:55.510+05:30  INFO 42512 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-18T22:37:55.522+05:30  INFO 42512 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-18T22:37:55.524+05:30  WARN 42512 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-18T22:37:55.526+05:30  INFO 42512 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@3b53625']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-18T22:37:55.806+05:30  INFO 42512 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists claim_officers cascade 
+Hibernate: drop table if exists claim_verifications cascade 
+Hibernate: drop table if exists claims cascade 
+Hibernate: drop table if exists contributions cascade 
+Hibernate: drop table if exists disaster_events cascade 
+Hibernate: drop table if exists members cascade 
+Hibernate: drop table if exists policies cascade 
+Hibernate: drop table if exists pool_funds cascade 
+Hibernate: drop table if exists regions cascade 
+Hibernate: drop table if exists users cascade 
+Hibernate: create table claim_officers (created_at timestamp(6) not null, id bigint generated by default as identity, region_id bigint not null, email varchar(255) not null unique, full_name varchar(255) not null, password varchar(255) not null, status varchar(255) not null, primary key (id))
+Hibernate: create table claim_verifications (claim_id bigint not null unique, id bigint generated by default as identity, officer_id bigint not null, verified_at timestamp(6), verification_notes varchar(2000), decision varchar(255) not null, primary key (id))
+Hibernate: create table claims (approved_amount numeric(38,2), requested_amount numeric(38,2) not null, assigned_officer_id bigint, claim_date timestamp(6), disaster_id bigint not null, id bigint generated by default as identity, member_id bigint not null, reviewed_at timestamp(6), document_url varchar(1000), description varchar(2000), reviewed_by varchar(255), status enum ('APPROVED','PAID','REJECTED','SUBMITTED','UNDER_REVIEW') not null, primary key (id), unique (member_id, disaster_id))
+Hibernate: create table contributions (amount numeric(38,2) not null, contribution_month date not null, id bigint generated by default as identity, member_id bigint not null, payment_date timestamp(6), primary key (id), unique (member_id, contribution_month))
+Hibernate: create table disaster_events (end_date date, start_date date not null, declared_at timestamp(6), id bigint generated by default as identity, region_id bigint not null, disaster_type varchar(255) not null, name varchar(255) not null, severity_level varchar(255) not null, status varchar(255) not null, primary key (id))
+Hibernate: create table members (accepted_terms boolean default false not null, join_date date, total_contribution numeric(38,2) not null, id bigint generated by default as identity, region_id bigint not null, user_id bigint not null unique, email varchar(255) not null unique, full_name varchar(255) not null, password varchar(255), phone_number varchar(255), status enum ('ACTIVE','PENDING','SUSPENDED'), primary key (id))
+Hibernate: create table policies (annual_payout_cap numeric(38,2) not null, max_payout_per_claim numeric(38,2) not null, min_contributions_required integer, monthly_contribution numeric(38,2) not null, waiting_period_days integer not null, created_at timestamp(6), id bigint generated by default as identity, region_id bigint not null unique, primary key (id))
+Hibernate: create table pool_funds (admin_fee_percentage numeric(38,2) not null, reserve_percentage numeric(38,2) not null, total_balance numeric(38,2) not null, id bigint generated by default as identity, last_updated timestamp(6), region_id bigint not null unique, primary key (id))
+Hibernate: create table regions (created_at timestamp(6), id bigint generated by default as identity, country varchar(255), name varchar(255) not null unique, risk_level varchar(255), state varchar(255), status varchar(255) not null, primary key (id))
+Hibernate: create table users (id bigint generated by default as identity, password varchar(255) not null, username varchar(255) not null unique, role enum ('ROLE_ADMIN','ROLE_CLAIM_OFFICER','ROLE_GOVERNMENT','ROLE_MEMBER'), primary key (id))
+Hibernate: alter table if exists claim_officers add constraint FK2ce6kl1sdl9cct7rait67a7fc foreign key (region_id) references regions
+Hibernate: alter table if exists claim_verifications add constraint FKkfa22eiam160e6il0phjehubs foreign key (claim_id) references claims
+Hibernate: alter table if exists claim_verifications add constraint FKsn7rbx0j80pivirttfe1x0ysm foreign key (officer_id) references claim_officers
+Hibernate: alter table if exists claims add constraint FKqso6vqoeufnwmw4xih5vbh3sy foreign key (assigned_officer_id) references claim_officers
+Hibernate: alter table if exists claims add constraint FK1s0s37we3rfdrqrci118egoo8 foreign key (disaster_id) references disaster_events
+Hibernate: alter table if exists claims add constraint FK4m6s5x1sg6pjrn4cdqp6qp42n foreign key (member_id) references members
+Hibernate: alter table if exists contributions add constraint FKlvpikafl2ttspllpte5fuxdnk foreign key (member_id) references members
+Hibernate: alter table if exists disaster_events add constraint FKgs0ai3v2qkky4s2y58pgc04ld foreign key (region_id) references regions
+Hibernate: alter table if exists members add constraint FKexa2tp6p79sl1846b2oqc7yla foreign key (region_id) references regions
+Hibernate: alter table if exists members add constraint FKpj3n6wh5muoeakc485whgs3x5 foreign key (user_id) references users
+Hibernate: alter table if exists policies add constraint FK17wuphqb6sfr8gvnlak7vv2rs foreign key (region_id) references regions
+Hibernate: alter table if exists pool_funds add constraint FKnt07j0nnpu8td0nqo06iug5k8 foreign key (region_id) references regions
+2026-03-18T22:37:55.841+05:30  INFO 42512 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18T22:37:56.068+05:30  INFO 42512 --- [           main] o.h.m.repository.ClaimRepositoryTest     : Started ClaimRepositoryTest in 0.893 seconds (process running for 24.631)
+Hibernate: insert into regions (country,created_at,name,risk_level,state,status,id) values (?,?,?,?,?,?,default)
+Hibernate: insert into users (password,role,username,id) values (?,?,?,default)
+Hibernate: insert into members (accepted_terms,email,full_name,join_date,password,phone_number,region_id,status,total_contribution,user_id,id) values (?,?,?,?,?,?,?,?,?,?,default)
+Hibernate: insert into disaster_events (declared_at,disaster_type,end_date,name,region_id,severity_level,start_date,status,id) values (?,?,?,?,?,?,?,?,default)
+Hibernate: insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default)
+Hibernate: insert into disaster_events (declared_at,disaster_type,end_date,name,region_id,severity_level,start_date,status,id) values (?,?,?,?,?,?,?,?,default)
+Hibernate: insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default)
+Hibernate: select coalesce(sum(c1_0.approved_amount),0) from claims c1_0 join members m1_0 on m1_0.id=c1_0.member_id where m1_0.region_id=? and c1_0.status='APPROVED'
+Hibernate: insert into regions (country,created_at,name,risk_level,state,status,id) values (?,?,?,?,?,?,default)
+Hibernate: insert into users (password,role,username,id) values (?,?,?,default)
+Hibernate: insert into members (accepted_terms,email,full_name,join_date,password,phone_number,region_id,status,total_contribution,user_id,id) values (?,?,?,?,?,?,?,?,?,?,default)
+Hibernate: insert into disaster_events (declared_at,disaster_type,end_date,name,region_id,severity_level,start_date,status,id) values (?,?,?,?,?,?,?,?,default)
+Hibernate: insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default)
+Hibernate: select count(c1_0.id) from claims c1_0 join members m1_0 on m1_0.id=c1_0.member_id where m1_0.region_id=? and c1_0.status='SUBMITTED'
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.197 s -- in org.hartford.mutualinsurance.repository.ClaimRepositoryTest
+[INFO] Running org.hartford.mutualinsurance.service.ClaimOfficerServiceImplTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.272 s -- in org.hartford.mutualinsurance.service.ClaimOfficerServiceImplTest
+[INFO] Running org.hartford.mutualinsurance.service.ClaimServiceImplTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.524 s -- in org.hartford.mutualinsurance.service.ClaimServiceImplTest
+[INFO] Running org.hartford.mutualinsurance.service.ContributionServiceImplTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in org.hartford.mutualinsurance.service.ContributionServiceImplTest
+[INFO] Running org.hartford.mutualinsurance.service.DisasterServiceImplTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in org.hartford.mutualinsurance.service.DisasterServiceImplTest
+[INFO] Running org.hartford.mutualinsurance.service.MemberServiceImplTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.040 s -- in org.hartford.mutualinsurance.service.MemberServiceImplTest
+[INFO] Running org.hartford.mutualinsurance.service.PolicyServiceImplTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 s -- in org.hartford.mutualinsurance.service.PolicyServiceImplTest
+[INFO] Running org.hartford.mutualinsurance.service.PoolFundServiceImplTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s -- in org.hartford.mutualinsurance.service.PoolFundServiceImplTest
+[INFO] Running org.hartford.mutualinsurance.service.RegionServiceImplTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in org.hartford.mutualinsurance.service.RegionServiceImplTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ClaimOfficerControllerTest.getAllClaimOfficers_asMember_shouldReturnForbidden:113 Status expected:<403> but was:<500>
+[ERROR]   MemberControllerTest.getMyProfile_shouldReturnProfile:85 Status expected:<200> but was:<500>
+[INFO] 
+[ERROR] Tests run: 107, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28.761 s
+[INFO] Finished at: 2026-03-18T22:37:57+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.2:test (default-test) on project MutualInsurance: There are test failures.
+[ERROR] 
+[ERROR] See C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

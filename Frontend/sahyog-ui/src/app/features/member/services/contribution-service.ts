@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -9,9 +9,10 @@ export class ContributionService {
 
   constructor(private http: HttpClient) {}
 
- payContribution(month: string){
-  return this.http.post(`${this.api}/pay?month=${month}`, {});
-}
+  payContribution(month: string){
+    const params = new HttpParams().set('month', month);
+    return this.http.post(`${this.api}/pay`, {}, { params });
+  }
 
  getMyContributions() {
   return this.http.get(`${this.api}/my`);

@@ -1,0 +1,275 @@
+﻿[33mΓ¥»[39m Building...
+[32mΓ£ö[39m Building...
+[1mInitial chunk files[22m                                                                          [2m | [22m[1mNames[22m                                                                                     [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m                                                                                   [2m | [22m[2mstyles[22m                                                                                    [2m | [22m[36m130.95 kB[39m[2m | [22m
+[32mspec-app-features-member-components-dashboard-dashboard.js[39m                                   [2m | [22m[2mspec-app-features-member-components-dashboard-dashboard[22m                                   [2m | [22m [36m70.17 kB[39m[2m | [22m
+[32mspec-app-features-landing-components-landing-component-landing-component.js[39m                  [2m | [22m[2mspec-app-features-landing-components-landing-component-landing-component[22m                  [2m | [22m [36m54.52 kB[39m[2m | [22m
+[32mspec-app-features-government-components-government-dashboard-government-dashboard.js[39m         [2m | [22m[2mspec-app-features-government-components-government-dashboard-government-dashboard[22m         [2m | [22m [36m49.83 kB[39m[2m | [22m
+[32mspec-app-features-auth-components-register-component-register-component.js[39m                   [2m | [22m[2mspec-app-features-auth-components-register-component-register-component[22m                   [2m | [22m [36m42.70 kB[39m[2m | [22m
+[32mspec-app-features-claim-officer-components-claim-officer-dashboard-claim-officer-dashboard.js[39m[2m | [22m[2mspec-app-features-claim-officer-components-claim-officer-dashboard-claim-officer-dashboard[22m[2m | [22m [36m35.81 kB[39m[2m | [22m
+[32mspec-app-features-admin-pages-overview-admin-overview.js[39m                                     [2m | [22m[2mspec-app-features-admin-pages-overview-admin-overview[22m                                     [2m | [22m [36m33.27 kB[39m[2m | [22m
+[32mspec-app-features-claim-officer-components-claim-review-claim-review.js[39m                      [2m | [22m[2mspec-app-features-claim-officer-components-claim-review-claim-review[22m                      [2m | [22m [36m32.50 kB[39m[2m | [22m
+[32mspec-app-features-member-components-claims-submit-claim-submit-claim.js[39m                      [2m | [22m[2mspec-app-features-member-components-claims-submit-claim-submit-claim[22m                      [2m | [22m [36m31.70 kB[39m[2m | [22m
+[32mspec-app-features-member-components-contributions-pay-contribution-pay-contribution.js[39m       [2m | [22m[2mspec-app-features-member-components-contributions-pay-contribution-pay-contribution[22m       [2m | [22m [36m30.78 kB[39m[2m | [22m
+[32mspec-app-features-admin-pages-regions-admin-regions.js[39m                                       [2m | [22m[2mspec-app-features-admin-pages-regions-admin-regions[22m                                       [2m | [22m [36m30.02 kB[39m[2m | [22m
+[32mspec-app-features-admin-pages-policies-admin-policies.js[39m                                     [2m | [22m[2mspec-app-features-admin-pages-policies-admin-policies[22m                                     [2m | [22m [36m24.76 kB[39m[2m | [22m
+[32mspec-app-features-auth-components-login-component-login-component.js[39m                         [2m | [22m[2mspec-app-features-auth-components-login-component-login-component[22m                         [2m | [22m [36m19.24 kB[39m[2m | [22m
+[32mchunk-HJCPWF2R.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m [36m12.36 kB[39m[2m | [22m
+[32mchunk-WXBJIOR5.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m5.00 kB[39m[2m | [22m
+[32mchunk-7F3KDCT5.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m4.18 kB[39m[2m | [22m
+[32mspec-app-features-auth-services-auth-service.js[39m                                              [2m | [22m[2mspec-app-features-auth-services-auth-service[22m                                              [2m | [22m  [36m3.37 kB[39m[2m | [22m
+[32mspec-app-features-auth-auth.guard.js[39m                                                         [2m | [22m[2mspec-app-features-auth-auth.guard[22m                                                         [2m | [22m  [36m3.25 kB[39m[2m | [22m
+[32mchunk-SFZ4YJRQ.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m2.90 kB[39m[2m | [22m
+[32mspec-app-layout-main-layout-main-layout.js[39m                                                   [2m | [22m[2mspec-app-layout-main-layout-main-layout[22m                                                   [2m | [22m  [36m2.13 kB[39m[2m | [22m
+[32mspec-app-features-auth-jwt-interceptor.js[39m                                                    [2m | [22m[2mspec-app-features-auth-jwt-interceptor[22m                                                    [2m | [22m  [36m1.87 kB[39m[2m | [22m
+[32mspec-app-features-member-services-contribution-service.js[39m                                    [2m | [22m[2mspec-app-features-member-services-contribution-service[22m                                    [2m | [22m  [36m1.86 kB[39m[2m | [22m
+[32mspec-app-features-admin-services-admin-service.js[39m                                            [2m | [22m[2mspec-app-features-admin-services-admin-service[22m                                            [2m | [22m  [36m1.83 kB[39m[2m | [22m
+[32mchunk-REZIRWLV.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.79 kB[39m[2m | [22m
+[32mspec-app-features-member-services-claim-service.js[39m                                           [2m | [22m[2mspec-app-features-member-services-claim-service[22m                                           [2m | [22m  [36m1.76 kB[39m[2m | [22m
+[32mchunk-SSNKMMAG.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.76 kB[39m[2m | [22m
+[32mspec-app-app.js[39m                                                                              [2m | [22m[2mspec-app-app[22m                                                                              [2m | [22m  [36m1.72 kB[39m[2m | [22m
+[32mspec-app-features-claim-officer-services-claim-officer-service.js[39m                            [2m | [22m[2mspec-app-features-claim-officer-services-claim-officer-service[22m                            [2m | [22m  [36m1.70 kB[39m[2m | [22m
+[32mspec-app-features-government-services-government-service.js[39m                                  [2m | [22m[2mspec-app-features-government-services-government-service[22m                                  [2m | [22m  [36m1.59 kB[39m[2m | [22m
+[32mchunk-MSN6YEMT.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.38 kB[39m[2m | [22m
+[32mspec-app-features-member-services-member-service.js[39m                                          [2m | [22m[2mspec-app-features-member-services-member-service[22m                                          [2m | [22m  [36m1.36 kB[39m[2m | [22m
+[32mchunk-TRIYXFCX.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.28 kB[39m[2m | [22m
+[32minit-testbed.js[39m                                                                              [2m | [22m[2minit-testbed[22m                                                                              [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mchunk-GLDGL32J.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.14 kB[39m[2m | [22m
+[32mchunk-V5UB63E4.js[39m                                                                            [2m | [22m[2m-[22m                                                                                         [2m | [22m  [36m1.08 kB[39m[2m | [22m
+[32mspec-app-guards-auth-guard.js[39m                                                                [2m | [22m[2mspec-app-guards-auth-guard[22m                                                                [2m | [22m[36m858 bytes[39m[2m | [22m
+[32mspec-app-interceptors-auth-interceptor.js[39m                                                    [2m | [22m[2mspec-app-interceptors-auth-interceptor[22m                                                    [2m | [22m[36m839 bytes[39m[2m | [22m
+[32mspec-app-features-shared-components-navbar-navbar.js[39m                                         [2m | [22m[2mspec-app-features-shared-components-navbar-navbar[22m                                         [2m | [22m[36m768 bytes[39m[2m | [22m
+[32mvitest-mock-patch.js[39m                                                                         [2m | [22m[2mvitest-mock-patch[22m                                                                         [2m | [22m[36m704 bytes[39m[2m | [22m
+[32mspec-app-features-shared-components-footer-footer.js[39m                                         [2m | [22m[2mspec-app-features-shared-components-footer-footer[22m                                         [2m | [22m[36m651 bytes[39m[2m | [22m
+
+[1m [22m                                                                                            [2m | [22m[1mInitial total[22m                                                                             [2m | [22m[1m646.61 kB[22m
+
+Application bundle generation complete. [4.090 seconds] - 2026-03-18T16:53:57.404Z
+
+node.exe : [1m[33m[33mΓû▓ [
+43;33m[[43;30mWARNING[43;33m]
+[0m [1mNG8113: Footer is not 
+used within the template of 
+App[0m [1m[35m[plugin 
+angular-compiler][0m
+At C:\Users\nehak\AppData\Roami
+ng\npm\ng.ps1:24 char:5
++     & "node$exe"  "$basedir/n
+ode_modules/@angular/cli/bin/ng
+.js" $arg ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo          : 
+N    otSpecified: 
+([1m[33m[33    
+mΓ...r-compiler][0m:String    
+) [], RemoteException
+    + FullyQualifiedErrorId : 
+N    ativeCommandError
+ 
+
+    src/app/app.ts:8:26:
+[37m      8 Γöé   imports: 
+[RouterOutlet, 
+[32mFooter[37m, Navbar],
+        Γò╡                    
+       [32m~~~~~~[0m
+
+
+[33mΓû▓ [43;33m[[43;30mWARNI
+NG[43;33m][0m [1mNG8113: 
+Navbar is not used within the 
+template of App[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/app.ts:8:34:
+[37m      8 Γöé   imports: 
+[RouterOutlet, Footer, 
+[32mNavbar[37m],
+        Γò╡                    
+               [32m~~~~~~[0m
+
+[39m[22m
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/nehak/OneDrive/Desktop/Sahyog/Frontend/sahyog-ui[39m
+
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/services/auth-service.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 119[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/app.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 136[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/services/contribution-service.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 38[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/shared/components/navbar/navbar.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 261[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/layout/main-layout/main-layout.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 254[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/claim-officer/components/claim-officer-dashboard/claim-officer-dashboard.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[33m 322[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/admin/pages/overview/admin-overview.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 292[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/admin/services/admin-service.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/components/login-component/login-component.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[33m 398[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/auth.guard.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/admin/pages/regions/admin-regions.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 278[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/government/services/government-service.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 21[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/components/register-component/register-component.spec.ts [2m([22m[2m5 tests[22m[2m | [22m[31m5 failed[39m[2m)[22m[33m 497[2mms[22m[39m
+[31m     [31m├ù[31m should create and load regions[39m[33m 302[2mms[22m[39m
+[31m     [31m├ù[31m should show error if any field is missing[39m[32m 69[2mms[22m[39m
+[31m     [31m├ù[31m should validate email format[39m[32m 43[2mms[22m[39m
+[31m     [31m├ù[31m should validate password match[39m[32m 48[2mms[22m[39m
+[31m     [31m├ù[31m should call API on valid registration[39m[32m 32[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/admin/pages/policies/admin-policies.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 295[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/shared/components/footer/footer.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 17[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/services/member-service.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/auth/jwt-interceptor.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/services/claim-service.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/claim-officer/services/claim-officer-service.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/components/claims/submit-claim/submit-claim.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 382[2mms[22m[39m
+     [33m[2mΓ£ô[22m[39m should create and load profile on init [33m 329[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/interceptors/auth-interceptor.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/guards/auth-guard.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/components/dashboard/dashboard.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 383[2mms[22m[39m
+[90mstderr[2m | src/app/featu
+res/landing/components/landing-
+component/landing-component.spe
+c.ts[2m > 
+[22m[2mLandingComponent[2m 
+> [22m[2mshould create
+[22m[39mFailed to fetch 
+regions HttpErrorResponse {
+  headers: HttpHeaders {
+    headers: Map(0) {},
+    normalizedNames: Map(0) {},
+    lazyInit: 
+[90mundefined[39m,
+    lazyUpdate: [1mnull[22m
+  },
+  status: [33m0[39m,
+  statusText: [32m'Unknown 
+Error'[39m,
+  url: [32m'http://localhost:8
+080/api/regions'[39m,
+  ok: [33mfalse[39m,
+  type: [90mundefined[39m,
+  redirected: 
+[90mundefined[39m,
+  responseType: 
+[90mundefined[39m,
+  name: 
+[32m'HttpErrorResponse'[39m,
+  message: [32m'Http failure 
+response for http://localhost:8
+080/api/regions: 0 Unknown 
+Error'[39m,
+  error: ProgressEvent { 
+isTrusted: [36m[Getter][39m }
+}
+
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/landing/components/landing-component/landing-component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[33m 725[2mms[22m[39m
+     [33m[2mΓ£ô[22m[39m should create [33m 722[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/government/components/government-dashboard/government-dashboard.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 296[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/member/components/contributions/pay-contribution/pay-contribution.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 159[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m sahyog-ui [49m[39m src/app/features/claim-officer/components/claim-review/claim-review.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 209[2mms[22m[39m
+
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m
+[1m[41m Failed Tests 5 [49m
+[22m[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»
+[39m
+
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould create and load 
+regions
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould show error if 
+any field is missing
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould validate email 
+format
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould validate 
+password match
+[41m[1m FAIL [22m[49m 
+[30m[42m sahyog-ui 
+[49m[39m src/app/features/aut
+h/components/register-component
+/register-component.spec.ts[2m
+ > [22mRegisterComponent[2m 
+> [22mshould call API on 
+valid registration
+[31m[1mTypeError[22m: 
+Cannot read properties of 
+undefined (reading 'root')[39m
+[90m [2mΓ¥»[22m 
+Object.rootRoute [as 
+useFactory] node_modules/@angul
+ar/router/fesm2022/_router_modu
+le-chunk.mjs:[2m1276:36[22m[
+39m
+[90m [2mΓ¥»[22m 
+Object.factory node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1395:32[22m[39m
+[90m [2mΓ¥»[22m node_modules
+/@angular/core/fesm2022/_effect
+-chunk2.mjs:[2m1316:35[22m[3
+9m
+[90m [2mΓ¥»[22m 
+runInInjectorProfilerContext no
+de_modules/@angular/core/fesm20
+22/_effect-chunk2.mjs:[2m444:5
+[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.hydrate node_modules
+/@angular/core/fesm2022/_effect
+-chunk2.mjs:[2m1314:11[22m[3
+9m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1203:23[22m[39m
+[90m [2mΓ¥»[22m 
+R3Injector.get node_modules/@an
+gular/core/fesm2022/_effect-chu
+nk2.mjs:[2m1208:27[22m[39m
+[90m [2mΓ¥»[22m 
+ChainedInjector.get node_module
+s/@angular/core/fesm2022/_debug
+_node-chunk.mjs:[2m7770:32[22
+m[39m
+[90m [2mΓ¥»[22m 
+lookupTokenUsingModuleInjector 
+node_modules/@angular/core/fesm
+2022/_debug_node-chunk.mjs:[2m
+890:31[22m[39m
+[90m [2mΓ¥»[22m 
+getOrCreateInjectable node_modu
+les/@angular/core/fesm2022/_deb
+ug_node-chunk.mjs:[2m913:10[2
+2m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1/5]ΓÄ»[22
+m[39m
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m26 passed[39m[22m[90m (27)[39m
+[2m      Tests [22m [1m[31m5 failed[39m[22m[2m | [22m[1m[32m63 passed[39m[22m[90m (68)[39m
+[2m   Start at [22m 22:23:57
+[2m   Duration [22m 5.28s[2m (transform 4.51s, setup 14.79s, import 9.42s, tests 5.22s, environment 65.68s)[22m
+

@@ -1,0 +1,406 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< org.hartford:MutualInsurance >--------------------
+[INFO] Building MutualInsurance 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ MutualInsurance ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 19 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ MutualInsurance ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ MutualInsurance ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ MutualInsurance ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 19 source files with javac [debug parameters release 17] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[47,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[47,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[47,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[47,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[47,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[49,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[49,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[49,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[49,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[49,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[51,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[51,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[51,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[51,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/AuthControllerTest.java:[51,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[40,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[40,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[40,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[40,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[40,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[43,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[46,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[46,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[46,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[46,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimControllerTest.java:[46,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[36,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[36,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[36,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[36,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[36,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ClaimOfficerControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[39,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/ContributionControllerTest.java:[45,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[38,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[38,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[38,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[38,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[38,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[41,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/DisasterControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[42,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java:[44,6] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[INFO] /C:/Users/nehak/OneDrive/Desktop/Sahyog/MutualInsurance/src/test/java/org/hartford/mutualinsurance/controller/MemberControllerTest.java: Some input files additionally use or override a deprecated API that is marked for removal.
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ MutualInsurance ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.hartford.mutualinsurance.repository.ClaimRepositoryTest
+16:49:23.987 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.hartford.mutualinsurance.repository.ClaimRepositoryTest]: ClaimRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:49:24.172 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.hartford.mutualinsurance.MutualInsuranceApplication for test class org.hartford.mutualinsurance.repository.ClaimRepositoryTest
+16:49:24.334 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.3)
+
+2026-03-18T16:49:24.861+05:30  INFO 31240 --- [           main] o.h.m.repository.ClaimRepositoryTest     : Starting ClaimRepositoryTest using Java 21.0.10 with PID 31240 (started by nehak in C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance)
+2026-03-18T16:49:24.862+05:30  INFO 31240 --- [           main] o.h.m.repository.ClaimRepositoryTest     : No active profile set, falling back to 1 default profile: "default"
+2026-03-18T16:49:25.630+05:30  INFO 31240 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-18T16:49:25.923+05:30  INFO 31240 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 254 ms. Found 10 JPA repository interfaces.
+2026-03-18T16:49:26.080+05:30  INFO 31240 --- [           main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-03-18T16:49:26.401+05:30  INFO 31240 --- [           main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:2e0d0ae5-61f5-46af-9dd5-bdb4098c122e;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-03-18T16:49:27.050+05:30  INFO 31240 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-18T16:49:27.262+05:30  INFO 31240 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2026-03-18T16:49:27.391+05:30  INFO 31240 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-18T16:49:28.193+05:30  INFO 31240 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-18T16:49:28.303+05:30  WARN 31240 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-18T16:49:28.340+05:30  INFO 31240 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@919086']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-18T16:49:30.284+05:30  INFO 31240 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists claim_officers cascade 
+Hibernate: drop table if exists claim_verifications cascade 
+Hibernate: drop table if exists claims cascade 
+Hibernate: drop table if exists contributions cascade 
+Hibernate: drop table if exists disaster_events cascade 
+Hibernate: drop table if exists members cascade 
+Hibernate: drop table if exists policies cascade 
+Hibernate: drop table if exists pool_funds cascade 
+Hibernate: drop table if exists regions cascade 
+Hibernate: drop table if exists users cascade 
+Hibernate: create table claim_officers (created_at timestamp(6) not null, id bigint generated by default as identity, region_id bigint not null, email varchar(255) not null unique, full_name varchar(255) not null, password varchar(255) not null, status varchar(255) not null, primary key (id))
+Hibernate: create table claim_verifications (claim_id bigint not null unique, id bigint generated by default as identity, officer_id bigint not null, verified_at timestamp(6), verification_notes varchar(2000), decision varchar(255) not null, primary key (id))
+Hibernate: create table claims (approved_amount numeric(38,2), requested_amount numeric(38,2) not null, assigned_officer_id bigint, claim_date timestamp(6), disaster_id bigint not null, id bigint generated by default as identity, member_id bigint not null, reviewed_at timestamp(6), document_url varchar(1000), description varchar(2000), reviewed_by varchar(255), status enum ('APPROVED','PAID','REJECTED','SUBMITTED','UNDER_REVIEW') not null, primary key (id), unique (member_id, disaster_id))
+Hibernate: create table contributions (amount numeric(38,2) not null, contribution_month date not null, id bigint generated by default as identity, member_id bigint not null, payment_date timestamp(6), primary key (id), unique (member_id, contribution_month))
+Hibernate: create table disaster_events (end_date date, start_date date not null, declared_at timestamp(6), id bigint generated by default as identity, region_id bigint not null, disaster_type varchar(255) not null, name varchar(255) not null, severity_level varchar(255) not null, status varchar(255) not null, primary key (id))
+Hibernate: create table members (accepted_terms boolean default false not null, join_date date, total_contribution numeric(38,2) not null, id bigint generated by default as identity, region_id bigint not null, user_id bigint not null unique, email varchar(255) not null unique, full_name varchar(255) not null, password varchar(255), phone_number varchar(255), status enum ('ACTIVE','PENDING','SUSPENDED'), primary key (id))
+Hibernate: create table policies (annual_payout_cap numeric(38,2) not null, max_payout_per_claim numeric(38,2) not null, min_contributions_required integer, monthly_contribution numeric(38,2) not null, waiting_period_days integer not null, created_at timestamp(6), id bigint generated by default as identity, region_id bigint not null unique, primary key (id))
+Hibernate: create table pool_funds (admin_fee_percentage numeric(38,2) not null, reserve_percentage numeric(38,2) not null, total_balance numeric(38,2) not null, id bigint generated by default as identity, last_updated timestamp(6), region_id bigint not null unique, primary key (id))
+Hibernate: create table regions (created_at timestamp(6), id bigint generated by default as identity, country varchar(255), name varchar(255) not null unique, risk_level varchar(255), state varchar(255), status varchar(255) not null, primary key (id))
+Hibernate: create table users (id bigint generated by default as identity, password varchar(255) not null, username varchar(255) not null unique, role enum ('ROLE_ADMIN','ROLE_CLAIM_OFFICER','ROLE_GOVERNMENT','ROLE_MEMBER'), primary key (id))
+Hibernate: alter table if exists claim_officers add constraint FK2ce6kl1sdl9cct7rait67a7fc foreign key (region_id) references regions
+Hibernate: alter table if exists claim_verifications add constraint FKkfa22eiam160e6il0phjehubs foreign key (claim_id) references claims
+Hibernate: alter table if exists claim_verifications add constraint FKsn7rbx0j80pivirttfe1x0ysm foreign key (officer_id) references claim_officers
+Hibernate: alter table if exists claims add constraint FKqso6vqoeufnwmw4xih5vbh3sy foreign key (assigned_officer_id) references claim_officers
+Hibernate: alter table if exists claims add constraint FK1s0s37we3rfdrqrci118egoo8 foreign key (disaster_id) references disaster_events
+Hibernate: alter table if exists claims add constraint FK4m6s5x1sg6pjrn4cdqp6qp42n foreign key (member_id) references members
+Hibernate: alter table if exists contributions add constraint FKlvpikafl2ttspllpte5fuxdnk foreign key (member_id) references members
+Hibernate: alter table if exists disaster_events add constraint FKgs0ai3v2qkky4s2y58pgc04ld foreign key (region_id) references regions
+Hibernate: alter table if exists members add constraint FKexa2tp6p79sl1846b2oqc7yla foreign key (region_id) references regions
+Hibernate: alter table if exists members add constraint FKpj3n6wh5muoeakc485whgs3x5 foreign key (user_id) references users
+Hibernate: alter table if exists policies add constraint FK17wuphqb6sfr8gvnlak7vv2rs foreign key (region_id) references regions
+Hibernate: alter table if exists pool_funds add constraint FKnt07j0nnpu8td0nqo06iug5k8 foreign key (region_id) references regions
+2026-03-18T16:49:30.446+05:30  INFO 31240 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18T16:49:31.250+05:30  INFO 31240 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-18T16:49:33.180+05:30  INFO 31240 --- [           main] o.h.m.repository.ClaimRepositoryTest     : Started ClaimRepositoryTest in 8.867 seconds (process running for 10.147)
+.\mvnw.cmd : Mockito is 
+currently self-attaching to 
+enable the inline-mock-maker. 
+This will no longer work in 
+future releases of the JDK. 
+Please add Mockito as an agent 
+to your build what is 
+described in Mockito's 
+documentation: https://javadoc.
+io/doc/org.mockito/mockito-core
+/latest/org/mockito/Mockito.htm
+l#0.3
+At line:1 char:1
++ .\mvnw.cmd test 
+-Dtest=ClaimRepositoryTest > 
+mvn_test_log_3.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo          : 
+N    otSpecified: (Mockito is 
+cu    
+rr...ockito.html#0.3:String    
+) [], RemoteException
+    + FullyQualifiedErrorId : 
+N    ativeCommandError
+ 
+OpenJDK 64-Bit Server VM 
+warning: Sharing is only 
+supported for boot loader 
+classes because bootstrap 
+classpath has been appended
+WARNING: A Java agent has been 
+loaded dynamically (C:\Users\ne
+hak\.m2\repository\net\bytebudd
+y\byte-buddy-agent\1.15.11\byte
+-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability 
+tool is in use, please run 
+with 
+-XX:+EnableDynamicAgentLoading 
+to hide this warning
+WARNING: If a serviceability 
+tool is not in use, please run 
+with 
+-Djdk.instrument.traceUsage 
+for more information
+WARNING: Dynamic loading of 
+agents will be disallowed by 
+default in a future release
+Hibernate: insert into regions (country,created_at,name,risk_level,state,status,id) values (?,?,?,?,?,?,default)
+Hibernate: insert into users (password,role,username,id) values (?,?,?,default)
+Hibernate: insert into members (accepted_terms,email,full_name,join_date,password,phone_number,region_id,status,total_contribution,user_id,id) values (?,?,?,?,?,?,?,?,?,?,default)
+Hibernate: insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default)
+2026-03-18T16:49:34.238+05:30  WARN 31240 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23502, SQLState: 23502
+2026-03-18T16:49:34.239+05:30 ERROR 31240 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : NULL not allowed for column "REQUESTED_AMOUNT"; SQL statement:
+insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default) [23502-232]
+Hibernate: insert into regions (country,created_at,name,risk_level,state,status,id) values (?,?,?,?,?,?,default)
+Hibernate: insert into users (password,role,username,id) values (?,?,?,default)
+Hibernate: insert into members (accepted_terms,email,full_name,join_date,password,phone_number,region_id,status,total_contribution,user_id,id) values (?,?,?,?,?,?,?,?,?,?,default)
+Hibernate: insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default)
+2026-03-18T16:49:34.307+05:30  WARN 31240 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23502, SQLState: 23502
+2026-03-18T16:49:34.308+05:30 ERROR 31240 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : NULL not allowed for column "REQUESTED_AMOUNT"; SQL statement:
+insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default) [23502-232]
+[ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 10.56 s <<< FAILURE! -- in org.hartford.mutualinsurance.repository.ClaimRepositoryTest
+[ERROR] org.hartford.mutualinsurance.repository.ClaimRepositoryTest.shouldSumApprovedClaimsByRegionId -- Time elapsed: 1.069 s <<< ERROR!
+org.hibernate.exception.ConstraintViolationException: 
+could not execute statement [NULL not allowed for column "REQUESTED_AMOUNT"; SQL statement:
+insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default) [23502-232]] [insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:682)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:293)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:274)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:324)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:393)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:307)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:223)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:136)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745)
+	at org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager.persist(TestEntityManager.java:92)
+	at org.hartford.mutualinsurance.repository.ClaimRepositoryTest.shouldSumApprovedClaimsByRegionId(ClaimRepositoryTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: NULL not allowed for column "REQUESTED_AMOUNT"; SQL statement:
+insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default) [23502-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:402)
+	at org.h2.table.Table.convertInsertRow(Table.java:963)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:212)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:304)
+	at org.h2.command.Command.executeUpdate(Command.java:248)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:213)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:172)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 27 more
+
+[ERROR] org.hartford.mutualinsurance.repository.ClaimRepositoryTest.shouldCountPendingClaimsByRegionId -- Time elapsed: 0.021 s <<< ERROR!
+org.hibernate.exception.ConstraintViolationException: 
+could not execute statement [NULL not allowed for column "REQUESTED_AMOUNT"; SQL statement:
+insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default) [23502-232]] [insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:682)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:293)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:274)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:324)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:393)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:307)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:223)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:136)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745)
+	at org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager.persist(TestEntityManager.java:92)
+	at org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager.persistAndFlush(TestEntityManager.java:130)
+	at org.hartford.mutualinsurance.repository.ClaimRepositoryTest.shouldCountPendingClaimsByRegionId(ClaimRepositoryTest.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: NULL not allowed for column "REQUESTED_AMOUNT"; SQL statement:
+insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default) [23502-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:402)
+	at org.h2.table.Table.convertInsertRow(Table.java:963)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:212)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:304)
+	at org.h2.command.Command.executeUpdate(Command.java:248)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:213)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:172)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 28 more
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   ClaimRepositoryTest.shouldCountPendingClaimsByRegionId:92 ╗ ConstraintViolation could not execute statement [NULL not allowed for column "REQUESTED_AMOUNT"; SQL statement:
+insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default) [23502-232]] [insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default)]
+[ERROR]   ClaimRepositoryTest.shouldSumApprovedClaimsByRegionId:52 ╗ ConstraintViolation could not execute statement [NULL not allowed for column "REQUESTED_AMOUNT"; SQL statement:
+insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default) [23502-232]] [insert into claims (approved_amount,assigned_officer_id,claim_date,description,disaster_id,document_url,member_id,requested_amount,reviewed_at,reviewed_by,status,id) values (?,?,?,?,?,?,?,?,?,?,?,default)]
+[INFO] 
+[ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.458 s
+[INFO] Finished at: 2026-03-18T16:49:34+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.2:test (default-test) on project MutualInsurance: 
+[ERROR] 
+[ERROR] See C:\Users\nehak\OneDrive\Desktop\Sahyog\MutualInsurance\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,210 @@
+<!-- ============================================================
+     Sahyog – Claim Officer Dashboard
+     Updated to use ClaimResponse DTO fields
+  ============================================================ -->
+<div class="min-h-screen bg-[#0a0a0f] text-gray-100 flex relative overflow-hidden">
+
+  <!-- Ambient Glow Effects -->
+  <div
+    class="absolute top-0 right-1/4 w-[500px] h-[500px] bg-[#853953]/20 blur-[150px] rounded-full pointer-events-none z-0">
+  </div>
+  <div
+    class="absolute bottom-0 left-1/4 w-[600px] h-[600px] bg-indigo-600/10 blur-[150px] rounded-full pointer-events-none z-0">
+  </div>
+
+  <!-- ── Sidebar ─────────────────────────────────────────── -->
+  <aside class="w-64 bg-white/[0.02] backdrop-blur-xl border-r border-white/5 flex flex-col relative z-10">
+    <div class="px-6 py-8 border-b border-white/5 flex items-center gap-3 group">
+      <img src="assets/logo.png" alt="Sahyog Logo"
+        class="w-10 h-10 rounded-full object-contain p-1 bg-[#1e0a17] shadow-[0_0_15px_rgba(236,72,153,0.3)] border border-[#ec4899]/30 group-hover:shadow-[0_0_20px_rgba(247,140,174,0.4)] transition-all duration-300">
+      <div>
+        <h1
+          class="text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 tracking-wide">
+          Sahyog</h1>
+        <p
+          class="text-[0.6rem] text-[#f78cae] font-medium uppercase tracking-widest leading-none mt-0.5 ml-0.5 border border-[#f78cae]/30 px-1 py-0.5 rounded inline-block bg-[#f78cae]/10">
+          Officer</p>
+      </div>
+    </div>
+
+    <nav class="flex-1 px-4 py-6 space-y-2">
+      <a
+        class="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/10 text-white font-semibold shadow-inner border border-white/5 cursor-pointer">
+        <svg class="w-5 h-5 text-[#f78cae]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414A1 1 0 0119 9.414V19a2 2 0 01-2 2z" />
+        </svg>
+        Review Queue
+      </a>
+    </nav>
+
+    <div class="px-4 py-6 border-t border-white/5">
+      <button (click)="logout()"
+        class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-gray-400 hover:bg-red-500/10 hover:text-red-400 transition-all duration-200 font-medium group">
+        <svg class="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+        </svg>
+        Logout
+      </button>
+    </div>
+  </aside>
+
+  <!-- ── Main ─────────────────────────────────────────────── -->
+  <main class="flex-1 p-10 relative z-10 overflow-y-auto w-full">
+    <div class="max-w-6xl mx-auto">
+
+      <!-- Header -->
+      <div class="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <h2
+            class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 tracking-tight">
+            Review Queue</h2>
+          <p class="text-gray-400 mt-2 font-medium">Evaluate and process pending insurance claims.</p>
+        </div>
+
+        <div
+          class="bg-white/[0.03] backdrop-blur-xl border border-white/10 rounded-2xl px-6 py-4 flex items-center gap-4 shadow-lg">
+          <div
+            class="w-12 h-12 bg-amber-500/20 border border-amber-500/30 rounded-xl flex items-center justify-center text-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.2)]">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <span class="block text-2xl font-black text-white">{{ pendingClaims().length }}</span>
+            <span class="text-[10px] uppercase font-bold text-gray-400 tracking-wider">Claims Pending</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Success Toast -->
+      @if (successMessage()) {
+      <div
+        class="mb-6 flex items-center gap-3 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 px-5 py-4 rounded-xl shadow-[0_0_20px_rgba(16,185,129,0.1)] animate-in fade-in slide-in-from-top-2">
+        <svg class="w-5 h-5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd"
+            d="M16.707 5.293a1 1 0 010 1.414L8.414 15l-4.121-4.121a1 1 0 111.414-1.414L8.414 12.172l7.293-7.293a1 1 0 011.414 0z"
+            clip-rule="evenodd" />
+        </svg>
+        <span class="font-medium">{{ successMessage() }}</span>
+      </div>
+      }
+
+      <!-- Error Toast -->
+      @if (error()) {
+      <div
+        class="mb-6 flex items-center gap-3 bg-red-500/10 border border-red-500/20 text-red-400 px-5 py-4 rounded-xl shadow-[0_0_20px_rgba(239,68,68,0.1)] animate-in fade-in slide-in-from-top-2">
+        <svg class="w-5 h-5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd"
+            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+            clip-rule="evenodd" />
+        </svg>
+        <span class="font-medium">{{ error() }}</span>
+      </div>
+      }
+
+      <!-- Loading -->
+      @if (loading()) {
+      <div class="space-y-4">
+        @for (i of [1,2,3]; track i) {
+        <div class="bg-white/[0.02] border border-white/5 rounded-2xl p-6 animate-pulse">
+          <div class="h-5 bg-white/10 rounded w-1/4 mb-4"></div>
+          <div class="h-4 bg-white/5 rounded w-1/2 mb-3"></div>
+          <div class="h-4 bg-white/5 rounded w-1/3"></div>
+        </div>
+        }
+      </div>
+      }
+
+      <!-- Empty State -->
+      @if (!loading() && pendingClaims().length === 0 && !error()) {
+      <div
+        class="flex flex-col items-center justify-center py-20 bg-white/[0.02] border border-white/5 rounded-3xl text-center">
+        <div
+          class="w-24 h-24 bg-emerald-500/10 border border-emerald-500/20 rounded-full flex items-center justify-center mb-6 shadow-[0_0_30px_rgba(16,185,129,0.15)]">
+          <svg class="w-12 h-12 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h3 class="text-2xl font-bold text-white mb-2">Queue is Empty</h3>
+        <p class="text-gray-400 max-w-sm mx-auto">All community claims have been processed. Great job keeping the
+          community supported!</p>
+        <button (click)="loadPendingClaims()"
+          class="mt-8 px-6 py-2.5 bg-white/5 hover:bg-white/10 border border-white/10 text-white rounded-xl text-sm font-bold shadow-lg transition-colors flex items-center gap-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          </svg>
+          Refresh Queue
+        </button>
+      </div>
+      }
+
+      <!-- Claims Queue Table -->
+      @if (!loading() && assignedClaims().length > 0) {
+      <div class="bg-white/[0.03] backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl overflow-hidden animate-in fade-in duration-700">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-white/5 border-b border-white/10">
+              <th class="px-6 py-5 text-[10px] font-black uppercase tracking-widest text-gray-500">Claim ID</th>
+              <th class="px-6 py-5 text-[10px] font-black uppercase tracking-widest text-gray-500">Member</th>
+              <th class="px-6 py-5 text-[10px] font-black uppercase tracking-widest text-gray-500">Disaster</th>
+              <th class="px-6 py-5 text-[10px] font-black uppercase tracking-widest text-gray-500 text-right">Requested</th>
+              <th class="px-6 py-5 text-[10px] font-black uppercase tracking-widest text-gray-500">Status</th>
+              <th class="px-6 py-5 text-[10px] font-black uppercase tracking-widest text-gray-500 text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-white/5">
+            @for (claim of assignedClaims(); track claim.id) {
+            <tr class="hover:bg-white/[0.04] transition-colors group">
+              <td class="px-6 py-6">
+                <span class="text-sm font-black text-gray-400 font-mono group-hover:text-white transition-colors">#{{ claim.id }}</span>
+                <p class="text-[9px] text-gray-600 font-bold uppercase mt-1">{{ claim.claimDate | date:'shortDate' }}</p>
+              </td>
+              <td class="px-6 py-6">
+                <div class="flex flex-col">
+                  <span class="text-sm font-extrabold text-white">{{ claim.memberName }}</span>
+                  <span class="text-[11px] text-gray-500 group-hover:text-gray-400 transition-colors">{{ claim.memberEmail }}</span>
+                </div>
+              </td>
+              <td class="px-6 py-6 text-sm">
+                <span class="font-bold text-gray-300 block">{{ claim.disasterType }}</span>
+                <span class="text-[9px] font-black uppercase tracking-tighter text-[#f78cae]">{{ claim.severityLevel }} Severity</span>
+              </td>
+              <td class="px-6 py-6 text-right">
+                <span class="text-sm font-black text-white">₹{{ claim.requestedAmount | number:'1.0-0' }}</span>
+              </td>
+              <td class="px-6 py-6">
+                <span class="px-2.5 py-1 rounded-lg text-[9px] font-black uppercase tracking-widest border transition-all"
+                  [ngClass]="{
+                    'bg-amber-500/10 text-amber-500 border-amber-500/20': claim.status === 'SUBMITTED',
+                    'bg-blue-500/10 text-blue-500 border-blue-500/20': claim.status === 'UNDER_REVIEW',
+                    'bg-emerald-500/10 text-emerald-500 border-emerald-500/20': claim.status === 'APPROVED' || claim.status === 'PAID',
+                    'bg-rose-500/10 text-rose-500 border-rose-500/20': claim.status === 'REJECTED'
+                  }">
+                  {{ claim.status }}
+                </span>
+              </td>
+              <td class="px-6 py-6 text-center">
+                <button (click)="review(claim)"
+                  class="bg-white/5 hover:bg-[#853953] border border-white/10 hover:border-[#f78cae]/50 text-white rounded-xl px-5 py-2 text-[10px] font-black uppercase tracking-widest transition-all duration-300 transform group-hover:scale-105 group-hover:shadow-[0_0_15px_rgba(133,57,83,0.4)]">
+                  Review
+                </button>
+              </td>
+            </tr>
+            }
+          </tbody>
+        </table>
+        <div class="px-6 py-4 bg-white/5 border-t border-white/10 text-[10px] font-bold text-gray-500 uppercase tracking-widest">
+          Showing {{ assignedClaims().length }} items in your review queue
+        </div>
+      </div>
+      }
+
+    </div>
+  </main>
+</div>

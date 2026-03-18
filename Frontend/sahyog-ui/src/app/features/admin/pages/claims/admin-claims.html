@@ -1,0 +1,93 @@
+<div class="p-8 min-h-screen relative z-10">
+
+  <div class="mb-8">
+    <h2 class="text-2xl font-bold text-white drop-shadow-sm">All Claims</h2>
+    <p class="text-[#cbd5f5]/50 text-sm mt-1">Read-only view of every claim in the system.</p>
+  </div>
+
+  <!-- Filter Tabs -->
+  <div class="flex gap-2 mb-6">
+    @for (tab of ['ALL','SUBMITTED','APPROVED','PAID','REJECTED']; track tab) {
+      <button (click)="setFilter(tab)"
+        class="px-4 py-2 rounded-xl text-sm font-semibold transition-all
+          {{ filter() === tab
+            ? 'bg-[#853953] text-white shadow-sm'
+            : 'bg-white/5 backdrop-blur-md shadow-[0_0_15px_rgba(0,0,0,0.1)] text-[#cbd5f5]/70 border border-white/20 hover:bg-white/5' }}">
+        {{ tab }}
+      </button>
+    }
+  </div>
+
+  @if (success()) {
+    <div class="mb-5 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 px-5 py-3 rounded-xl text-sm font-medium animate-pulse">✅ {{ success() }}</div>
+  }
+
+  @if (error()) {
+    <div class="mb-5 bg-red-50 border border-red-200 text-red-700 px-5 py-3 rounded-xl text-sm font-medium">❌ {{ error() }}</div>
+  }
+
+  @if (loading()) {
+    <div class="bg-white/5 backdrop-blur-md shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-10 text-center text-[#cbd5f5]/50 shadow-sm">Loading claims…</div>
+  } @else if (filtered.length === 0) {
+    <div class="bg-white/5 backdrop-blur-md shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-12 text-center shadow-sm border border-white/10">
+      <p class="text-[#cbd5f5]/70 font-medium">No {{ filter() === 'ALL' ? '' : filter() + ' ' }}claims found.</p>
+    </div>
+  } @else {
+    <div class="bg-white/5 backdrop-blur-md shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl shadow-sm border border-white/10 overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-white/5 border-b border-white/10">
+          <tr>
+            <th class="text-left text-xs font-semibold text-[#cbd5f5]/70 uppercase tracking-wider px-5 py-4">Claim</th>
+            <th class="text-left text-xs font-semibold text-[#cbd5f5]/70 uppercase tracking-wider px-5 py-4">Member</th>
+            <th class="text-left text-xs font-semibold text-[#cbd5f5]/70 uppercase tracking-wider px-5 py-4">Region</th>
+            <th class="text-left text-xs font-semibold text-[#cbd5f5]/70 uppercase tracking-wider px-5 py-4">Disaster</th>
+            <th class="text-left text-xs font-semibold text-[#cbd5f5]/70 uppercase tracking-wider px-5 py-4">Requested</th>
+            <th class="text-left text-xs font-semibold text-[#cbd5f5]/70 uppercase tracking-wider px-5 py-4">Status</th>
+            <th class="text-left text-xs font-semibold text-[#cbd5f5]/70 uppercase tracking-wider px-5 py-4">Reviewed By</th>
+            <th class="text-center text-xs font-semibold text-[#cbd5f5]/70 uppercase tracking-wider px-5 py-4">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (c of filtered; track c.id) {
+            <tr class="border-t border-white/5 hover:bg-white/5 transition-colors">
+              <td class="px-5 py-4 text-xs text-[#cbd5f5]/50 font-mono">#{{ c.id }}</td>
+              <td class="px-5 py-4">
+                <p class="font-semibold text-white drop-shadow-sm text-sm">{{ c.memberName }}</p>
+                <p class="text-xs text-[#cbd5f5]/50">{{ c.memberEmail }}</p>
+              </td>
+              <td class="px-5 py-4 text-sm text-[#cbd5f5]">{{ c.regionName }}</td>
+              <td class="px-5 py-4 text-sm text-[#cbd5f5]">{{ c.disasterType }}</td>
+              <td class="px-5 py-4 text-sm font-semibold text-white drop-shadow-sm">₹ {{ c.requestedAmount | number:'1.0-0' }}</td>
+              <td class="px-5 py-4">
+                @if (c.status === 'SUBMITTED') {
+                  <span class="text-[10px] bg-amber-500/10 text-amber-500 font-bold px-2 py-0.5 rounded border border-amber-500/20">SUBMITTED</span>
+                } @else if (c.status === 'APPROVED') {
+                  <span class="text-[10px] bg-blue-500/10 text-blue-500 font-bold px-2 py-0.5 rounded border border-blue-500/20">APPROVED</span>
+                } @else if (c.status === 'PAID') {
+                  <span class="text-[10px] bg-emerald-500/10 text-emerald-500 font-bold px-2 py-0.5 rounded border border-emerald-500/20">PAID</span>
+                } @else {
+                  <span class="text-[10px] bg-rose-500/10 text-rose-500 font-bold px-2 py-0.5 rounded border border-rose-500/20">REJECTED</span>
+                }
+              </td>
+              <td class="px-5 py-4 text-xs text-[#cbd5f5]/50">{{ c.reviewedBy || '—' }}</td>
+              <td class="px-5 py-4 text-center">
+                @if (c.status === 'APPROVED') {
+                  <button (click)="pay(c.id)" class="bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg text-xs font-bold transition-all shadow-lg hover:shadow-emerald-500/40">
+                    Release Payout
+                  </button>
+                } @else if (c.status === 'PAID') {
+                  <span class="text-[10px] text-emerald-400 font-black italic uppercase tracking-widest">Released</span>
+                } @else {
+                  <span class="text-[10px] text-[#cbd5f5]/30 uppercase font-black tracking-widest">—</span>
+                }
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+      <div class="px-5 py-3 bg-white/5 border-t border-white/10 text-xs text-[#cbd5f5]/50">
+        Showing {{ filtered.length }} of {{ claims().length }} claims
+      </div>
+    </div>
+  }
+</div>

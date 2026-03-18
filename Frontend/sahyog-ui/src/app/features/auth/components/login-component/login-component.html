@@ -1,0 +1,95 @@
+<div class="min-h-screen flex items-center justify-center bg-[#020617] text-[#cbd5f5] font-sans relative overflow-hidden selection:bg-[#ec4899]/30 selection:text-white p-4">
+  
+  <!-- Glowing effects -->
+  <div class="absolute top-0 right-1/4 w-[600px] h-[600px] bg-[#ec4899]/10 blur-[150px] rounded-full pointer-events-none z-0"></div>
+  <div class="absolute top-1/2 left-0 w-[500px] h-[500px] bg-[#1e1b4b]/80 blur-[150px] rounded-full pointer-events-none z-0"></div>
+
+  <!-- Glass Card -->
+  <div class="relative z-10 bg-white/5 border border-white/10 backdrop-blur-xl shadow-[0_0_50px_rgba(236,72,153,0.15)] rounded-3xl p-10 w-full max-w-[400px]">
+
+    <!-- Brand -->
+    <div class="text-center mb-8 flex flex-col items-center">
+      <img src="assets/logo.png" alt="Sahyog Logo" class="w-24 h-24 rounded-full object-contain p-2 bg-[#020617] mb-4 shadow-[0_0_20px_rgba(236,72,153,0.3)] border-2 border-[#ec4899]/30">
+      <h2 class="text-3xl font-black text-white tracking-widest drop-shadow-md mb-2" style="font-family: 'Yatra One', serif;">सहयोग</h2>
+      <p class="text-[#cbd5f5]/70 text-sm">Sign in to your Sahyog account</p>
+    </div>
+
+    <!-- Error -->
+    @if (errorMsg()) {
+      <div class="bg-red-500/10 border border-red-500/30 text-red-400 px-4 py-3 rounded-xl mb-5 text-sm font-medium flex items-center gap-2">
+        <svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+        </svg>
+        {{ errorMsg() }}
+      </div>
+    }
+
+    <!-- Email -->
+    <div class="mb-5">
+      <div class="flex justify-between items-end mb-2">
+        <label class="block text-sm font-semibold text-[#cbd5f5]">Email</label>
+        @if (usernameField.touched && usernameField.invalid) {
+          <span class="text-[10px] text-red-400 font-bold uppercase tracking-wider animate-pulse">Required</span>
+        }
+      </div>
+      <input
+        [(ngModel)]="username"
+        #usernameField="ngModel"
+        required
+        email
+        name="username"
+        type="email"
+        placeholder="Enter Email address"
+        [class.border-red-500]="usernameField.touched && usernameField.invalid"
+        class="w-full border border-white/10 bg-[#1e1b4b]/30 p-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ec4899]/50 focus:border-[#ec4899] transition-all text-white placeholder-gray-500 shadow-inner">
+      @if (usernameField.touched && usernameField.errors?.['email']) {
+        <p class="text-[10px] text-red-400/80 mt-1 font-medium">Please enter a valid email address.</p>
+      }
+    </div>
+
+    <!-- Password -->
+    <div class="mb-8">
+      <div class="flex justify-between items-end mb-2">
+        <label class="block text-sm font-semibold text-[#cbd5f5]">Password</label>
+        @if (passwordField.touched && passwordField.invalid) {
+          <span class="text-[10px] text-red-400 font-bold uppercase tracking-wider animate-pulse">Required</span>
+        }
+      </div>
+      <input
+        [(ngModel)]="password"
+        #passwordField="ngModel"
+        required
+        minlength="6"
+        name="password"
+        type="password"
+        placeholder="••••••••"
+        [class.border-red-500]="passwordField.touched && passwordField.invalid"
+        class="w-full border border-white/10 bg-[#1e1b4b]/30 p-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ec4899]/50 focus:border-[#ec4899] transition-all text-white placeholder-gray-500 shadow-inner">
+      @if (passwordField.touched && passwordField.errors?.['minlength']) {
+        <p class="text-[10px] text-red-400/80 mt-1 font-medium">Password must be at least 6 characters.</p>
+      }
+    </div>
+
+    <!-- Login Button -->
+    <button
+      (click)="login()"
+      [disabled]="loading() || !usernameField.valid || !passwordField.valid"
+      class="w-full bg-gradient-to-r from-[#ec4899] to-[#f43f5e] text-white py-4 rounded-xl font-bold hover:shadow-[0_0_30px_rgba(236,72,153,0.6)] transition-all duration-300 shadow-[0_0_15px_rgba(236,72,153,0.4)] disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:translate-y-0 flex items-center justify-center gap-2 hover:-translate-y-1">
+      @if (loading()) {
+        <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+        </svg>
+        Signing in...
+      } @else {
+        Sign In
+      }
+    </button>
+
+    <p class="text-center text-sm text-[#cbd5f5]/60 mt-6 pt-6 border-t border-white/10">
+      New to Sahyog?
+      <a routerLink="/register" class="text-[#ec4899] font-bold hover:text-[#f43f5e] transition-colors hover:drop-shadow-[0_0_5px_rgba(236,72,153,0.8)] ml-1">Join Community</a>
+    </p>
+
+  </div>
+</div>

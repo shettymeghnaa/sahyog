@@ -1,0 +1,175 @@
+<div class="min-h-screen flex items-center justify-center bg-[#020617] text-[#cbd5f5] font-sans relative overflow-hidden selection:bg-[#ec4899]/30 selection:text-white p-4 py-12">
+  
+  <!-- Glowing effects -->
+  <div class="absolute top-0 right-1/4 w-[600px] h-[600px] bg-[#ec4899]/10 blur-[150px] rounded-full pointer-events-none z-0"></div>
+  <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#1e1b4b]/80 blur-[150px] rounded-full pointer-events-none z-0"></div>
+
+  <!-- Glass Card -->
+  <div class="relative z-10 bg-white/5 border border-white/10 backdrop-blur-xl shadow-[0_0_50px_rgba(236,72,153,0.15)] rounded-3xl p-8 sm:p-10 w-full max-w-[480px]">
+
+    <!-- Brand -->
+    <div class="text-center mb-8 flex flex-col items-center">
+      <img src="assets/logo.png" alt="Sahyog Logo" class="w-24 h-24 rounded-full object-contain p-2 bg-[#020617] mb-4 shadow-[0_0_20px_rgba(236,72,153,0.3)] border-2 border-[#ec4899]/30">
+      <h2 class="text-3xl font-black text-white tracking-widest drop-shadow-md mb-2" style="font-family: 'Yatra One', serif;">सहयोग</h2>
+      <p class="text-[#cbd5f5]/70 text-sm">Create your community insurance account</p>
+    </div>
+
+    @if (isSuccessView()) {
+      <div class="text-center animate-[fadeIn_0.5s_ease-out]">
+        <div class="w-20 h-20 bg-emerald-500/20 rounded-full flex items-center justify-center mx-auto mb-6 shadow-[0_0_30px_rgba(16,185,129,0.3)] border-2 border-emerald-500/40">
+          <svg class="w-10 h-10 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h3 class="text-2xl font-bold text-white mb-3">Application Submitted</h3>
+        <p class="text-[#cbd5f5]/80 text-sm leading-relaxed mb-8">
+          Your request to join the community insurance pool is currently under review by the administrators. 
+          You will be able to log in once your account status becomes <span class="text-emerald-400 font-bold uppercase tracking-wider text-xs px-2 py-0.5 bg-emerald-500/10 rounded border border-emerald-500/20">Active</span>.
+        </p>
+        <button routerLink="/" class="w-full bg-white/10 hover:bg-white/20 text-white font-semibold py-3.5 rounded-xl border border-white/20 transition-all">
+          Return to Home
+        </button>
+      </div>
+    } @else {
+
+    <!-- Success -->
+    @if (successMsg()) {
+      <div class="bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 px-4 py-3 rounded-xl mb-5 text-sm font-medium flex items-center gap-2">
+        <svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414L8.414 15l-4.121-4.121a1 1 0 111.414-1.414L8.414 12.172l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+        </svg>
+        {{ successMsg() }}
+      </div>
+    }
+
+    <!-- Error -->
+    @if (errorMsg()) {
+      <div class="bg-red-500/10 border border-red-500/30 text-red-400 px-4 py-3 rounded-xl mb-5 text-sm font-medium flex items-center gap-2">
+        <svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+        </svg>
+        {{ errorMsg() }}
+      </div>
+    }
+
+    <!-- Full Name -->
+    <div class="mb-5">
+      <div class="flex justify-between items-end mb-2">
+        <label class="block text-sm font-semibold text-[#cbd5f5]">Full Name <span class="text-red-400">*</span></label>
+        @if (fullNameField.touched && fullNameField.invalid) {
+          <span class="text-[10px] text-red-400 font-bold uppercase tracking-wider animate-pulse">Required</span>
+        }
+      </div>
+      <input [(ngModel)]="fullName" #fullNameField="ngModel" required name="fullName" placeholder="Enter your full name"
+        [class.border-red-500]="fullNameField.touched && fullNameField.invalid"
+        class="w-full border border-white/10 bg-[#1e1b4b]/30 p-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ec4899]/50 focus:border-[#ec4899] transition-all text-white placeholder-gray-500 shadow-inner">
+    </div>
+
+    <!-- Phone & Email Row -->
+    <div class="grid grid-cols-2 gap-4 mb-5">
+      <div>
+        <div class="flex justify-between items-end mb-2">
+          <label class="block text-sm font-semibold text-[#cbd5f5]">Email <span class="text-red-400">*</span></label>
+          @if (emailField.touched && emailField.invalid) {
+            <span class="text-[10px] text-red-400 font-bold uppercase tracking-wider animate-pulse">Invalid</span>
+          }
+        </div>
+        <input [(ngModel)]="email" #emailField="ngModel" required email name="email" type="email" placeholder="Email address"
+          [class.border-red-500]="emailField.touched && emailField.invalid"
+          class="w-full border border-white/10 bg-[#1e1b4b]/30 p-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ec4899]/50 focus:border-[#ec4899] transition-all text-white placeholder-gray-500 shadow-inner">
+      </div>
+      <div>
+        <div class="flex justify-between items-end mb-2">
+          <label class="block text-sm font-semibold text-[#cbd5f5]">Phone <span class="text-red-400">*</span></label>
+          @if (phoneField.touched && phoneField.invalid) {
+            <span class="text-[10px] text-red-400 font-bold uppercase tracking-wider animate-pulse">10 Digits</span>
+          }
+        </div>
+        <input [(ngModel)]="phoneNumber" #phoneField="ngModel" required minlength="10" maxlength="15" pattern="[0-9]*" name="phoneNumber" type="tel" placeholder="Mobile Number"
+          [class.border-red-500]="phoneField.touched && phoneField.invalid"
+          class="w-full border border-white/10 bg-[#1e1b4b]/30 p-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ec4899]/50 focus:border-[#ec4899] transition-all text-white placeholder-gray-500 shadow-inner">
+      </div>
+    </div>
+
+    <!-- Password Row -->
+    <div class="grid grid-cols-2 gap-4 mb-5">
+      <div>
+        <div class="flex justify-between items-end mb-2">
+          <label class="block text-sm font-semibold text-[#cbd5f5]">Password <span class="text-red-400">*</span></label>
+          @if (passwordField.touched && passwordField.invalid) {
+            <span class="text-[10px] text-red-400 font-bold uppercase tracking-wider animate-pulse">Min 6</span>
+          }
+        </div>
+        <input [(ngModel)]="password" #passwordField="ngModel" required minlength="6" name="password" type="password" placeholder="Create password"
+          [class.border-red-500]="passwordField.touched && passwordField.invalid"
+          class="w-full border border-white/10 bg-[#1e1b4b]/30 p-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ec4899]/50 focus:border-[#ec4899] transition-all text-white placeholder-gray-500 shadow-inner">
+      </div>
+      <div>
+        <div class="flex justify-between items-end mb-2">
+          <label class="block text-sm font-semibold text-[#cbd5f5]">Confirm <span class="text-red-400">*</span></label>
+          @if (confirmField.touched && (confirmField.invalid || password !== confirmPassword)) {
+            <span class="text-[10px] text-red-400 font-bold uppercase tracking-wider animate-pulse">Mismatch</span>
+          }
+        </div>
+        <input [(ngModel)]="confirmPassword" #confirmField="ngModel" required name="confirmPassword" type="password" placeholder="Confirm password"
+          [class.border-red-500]="confirmField.touched && (confirmField.invalid || password !== confirmPassword)"
+          class="w-full border border-white/10 bg-[#1e1b4b]/30 p-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ec4899]/50 focus:border-[#ec4899] transition-all text-white placeholder-gray-500 shadow-inner">
+      </div>
+    </div>
+
+    <!-- Region -->
+    <div class="mb-6 relative">
+      <div class="flex justify-between items-end mb-2">
+        <label class="block text-sm font-semibold text-[#cbd5f5]">Select Your Community <span class="text-red-400">*</span></label>
+        @if (regionField.touched && (regionId === 0 || !regionId)) {
+          <span class="text-[10px] text-red-400 font-bold uppercase tracking-wider animate-pulse">Required</span>
+        }
+      </div>
+      <select [(ngModel)]="regionId" #regionField="ngModel" required name="regionId"
+        [class.border-red-500]="regionField.touched && (regionId === 0 || !regionId)"
+        class="w-full border border-white/10 bg-[#1e1b4b]/30 p-3.5 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ec4899]/50 focus:border-[#ec4899] transition-all text-white appearance-none shadow-inner cursor-pointer">
+        <option [value]="0" disabled class="bg-[#020617] text-gray-400">— Choose a region —</option>
+        @for (r of regions; track r.id) {
+          <option [value]="r.id" class="bg-[#020617] text-white">{{ r.name }} — {{ r.state }}, {{ r.country }}</option>
+        }
+      </select>
+      <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 pt-7 text-[#ec4899]">
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Terms and Conditions -->
+    <div class="mb-8 flex items-start gap-3">
+      <div class="flex items-center h-5 mt-0.5 relative">
+        <input [(ngModel)]="acceptedTerms" #termsField="ngModel" required id="terms" name="acceptedTerms" type="checkbox"
+          class="w-5 h-5 border border-white/30 rounded-md bg-[#1e1b4b]/30 focus:ring-2 focus:ring-[#ec4899]/50 accent-[#ec4899] transition-all cursor-pointer">
+      </div>
+      <label for="terms" class="text-sm text-[#cbd5f5]/80 cursor-pointer pt-0.5">
+        I accept the <a href="#" class="text-[#ec4899] font-bold hover:text-[#f43f5e] transition-colors hover:underline">Terms and Conditions</a> and Privacy Policy.
+      </label>
+    </div>
+
+    <!-- Register Button -->
+    <button (click)="register()" [disabled]="loading() || !fullNameField.valid || !emailField.valid || !phoneField.valid || !passwordField.valid || confirmPassword !== password || !regionId || !acceptedTerms"
+      class="w-full bg-gradient-to-r from-[#ec4899] to-[#f43f5e] text-white py-4 rounded-xl font-bold hover:shadow-[0_0_30px_rgba(236,72,153,0.6)] transition-all duration-300 shadow-[0_0_15px_rgba(236,72,153,0.4)] disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:translate-y-0 flex items-center justify-center gap-2 hover:-translate-y-1">
+      @if (loading()) {
+        <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+        </svg>
+        Creating Account…
+      } @else {
+        Create Account
+      }
+    </button>
+
+    <p class="text-center text-sm text-[#cbd5f5]/60 mt-6 pt-6 border-t border-white/10">
+      Already a member?
+      <a routerLink="/login" class="text-[#ec4899] font-bold hover:text-[#f43f5e] transition-colors hover:drop-shadow-[0_0_5px_rgba(236,72,153,0.8)] ml-1">Sign In</a>
+    </p>
+    }
+
+  </div>
+</div>

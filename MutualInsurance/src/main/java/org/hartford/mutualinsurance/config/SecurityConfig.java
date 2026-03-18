@@ -43,6 +43,9 @@ public class SecurityConfig {
                         // H2 console (dev only)
                         .requestMatchers("/h2-console/**").permitAll()
 
+                        // Swagger UI and OpenAPI docs
+                        .requestMatchers("/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
+
                         // Public static resources
                         .requestMatchers("/", "/index.html", "/css/**", "/js/**", "/auth/**").permitAll()
 
